@@ -2,10 +2,24 @@
     --color-text:#ffffff;
     --color-text-primary:var(--color-text);
     --color-background:#ffffff;
+    --color-nav-background:#1951d6;
     --color-background-primary:var(var(--color-background));
+    --color-nav-footer-primary:var(--color-nav-background);
+    --color-list-footer-primary:var(--color-nav-background);
+    --color-gradient-1: red;
+    --color-gradient-2:orange;
+    --color-gradient-buttons-primary-2:var(--color-gradient-2);
+    --color-gradient-buttons-primary-1:var(--color-gradient-1);
+
 
     --font-family-nav:'Montserrat', sans-serif;
     --font-family-text:'Playfair Display', serif;
+}
+
+a {
+    text-decoration: none;
+
+    color: inherit;  
 }
 
 .header {
@@ -71,12 +85,6 @@
 
     margin-left: 20px;
     margin-right: 0px;
-}
-
-a {
-    text-decoration: none;
-
-    color: inherit;  
 }
 
 .logo{

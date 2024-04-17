@@ -62,7 +62,7 @@
 
     border: 0px;
 
-    background-image: linear-gradient(to right, red , orange);
+    background-image: linear-gradient(to right,var(--color-gradient-buttons-primary-1) ,var(--color-gradient-buttons-primary-2));
 
     cursor: pointer;
 }
@@ -251,7 +251,7 @@
   }
 
   li::marker {
-    color: #1951d6;
+    color: var(--color-list-footer-primary);
   }
 
   .main--bottom-nav-container {
@@ -264,7 +264,7 @@
 
     gap: 50px;
 
-    background-color: #1951d6;
+    background-color: var(--color-nav-footer-primary);
 
     padding: 25px;
 
