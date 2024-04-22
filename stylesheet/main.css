@@ -8,17 +8,7 @@
     --font-family-text:'Playfair Display', serif;
 }
 
-.header {
-    display: grid;
 
-    align-items: center;
-
-    grid-template-rows: 100px;
-
-    grid-template-areas: 'logo nav phone';
-    
-    z-index: 1;    
-}
 
 .nav {
     display: inline-block;
@@ -32,9 +22,21 @@
     font-family: var(--font-family);
 }
 
+.header {
+    display: grid;
+
+    align-items: center;
+
+    grid-template-rows: 100px;
+
+    grid-template-areas: 'logo nav phone';
+
+    z-index: 1;
+}
+
 .main {
     background-color: var(--color-background-primary);
-    
+
     margin: 0;
 
     font-family: var(--font-family-text);
@@ -63,7 +65,7 @@
 
     font-size: 17px;
 
-    grid-area: phone; 
+    grid-area: phone;
 
     color: var(--color-text);
 
@@ -76,7 +78,7 @@
 a {
     text-decoration: none;
 
-    color: inherit;  
+    color: inherit;
 }
 
 .logo{
