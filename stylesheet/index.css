@@ -1,314 +1,319 @@
 @import url(main.css);
 
 .main--banner-container {
-    display: flex;
+  display: flex;
 
-    flex-direction: column;
+  flex-direction: column;
 
-    position: relative;
+  position: relative;
 
-    height: auto;
-    max-width: 100%;
+  height: auto;
+  max-width: 100%;
 
-    padding-bottom: 10vw;
+  padding-bottom: 10vw;
+
+  position: relative;
 }
 
-.main--quote-container{
-    display: flex;
+.main--quote-container {
+  display: flex;
 
-    flex-direction: column;
+  flex-direction: column;
 
-    text-align: center;
+  text-align: center;
 
-    color: var(--color-text);
+  color: var(--color-text);
 
-    position: relative;
+  position: relative;
 
-    margin-top: 120px;
-} 
+  margin-top: 120px;
+}
 
 .main--quote {
-    font-size: 40px;
+  font-size: 40px;
 
-    width: 50%;
+  width: 50%;
 
-    margin: auto;
+  margin: auto;
 
-    position: relative;
+  position: relative;
 
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
-.main--banner-img{
+.main--banner-img {
+  max-width: 100%;
 
-    max-width: 100%;
+  height: auto;
 
-    height: auto;
+  position: absolute;
 
-    position: absolute;
-
-    padding: 0;
+  padding: 0;
 }
 
-.button {    
-    width: 200px;
-    height: 40px;
+.button {
+  width: 200px;
+  height: 40px;
 
-    margin: auto;
+  margin: auto;
 
-    color: var(--color-text);
+  color: var(--color-text);
 
-    border: 0px;
+  border: 0px;
 
-    background-image: linear-gradient(to right,var(--color-gradient-buttons-primary-1) ,var(--color-gradient-buttons-primary-2));
+  background-image: linear-gradient(
+    to right,
+    var(--color-gradient-buttons-primary-1),
+    var(--color-gradient-buttons-primary-2)
+  );
 
-    cursor: pointer;
+  cursor: pointer;
 
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .main--subHeading {
-    padding: 0;
-    margin: 20px 0 30px 0;
+  padding: 0;
+  margin: 20px 0 30px 0;
 }
 
 strong {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 .main--info-container {
-    display: flex;
+  display: flex;
 
-    flex-direction: column;
-    
-    text-align: center;
+  flex-direction: column;
 
-    color: var(--color-text);
+  text-align: center;
 
-    position: relative;
+  color: var(--color-text);
+
+  position: relative;
+}
+
+.main--info-text {
+  z-index: 1;
+
+  margin-top: 20px;
 }
 
 .main--info-p {
-    font-size: 15px;
+  font-size: 15px;
 
-    line-height:1.6;
+  line-height: 1.6;
 
-    width: 45%;
+  width: 45%;
 
-    margin: 30px auto;
+  margin: 30px auto;
 
-    z-index: 2;    
+  z-index: 2;
 }
 
 .main--info-img {
-    position: absolute;
+  position: absolute;
 
-    max-width: 100%;
-    height: auto;
-
+  max-width: 100%;
+  height: auto;
 }
 
 .main--flex-containers {
-    display: grid;
-    grid-template-columns: auto;    
-
+  display: flex;
+  flex-direction: column;
 }
 
 .main--info-heading {
-    z-index: 2;
+  z-index: 2;
 
-    margin-top: 90px;
+  margin-top: 90px;
 
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
-.main--flex-images-container{
-    display: flex; 
-    flex-direction: row;
+.main--flex-images-container {
+  display: flex;
+  flex-direction: row;
 
-    position: relative;
+  position: relative;
 
-    margin: 80px auto auto auto;
+  margin: 80px auto auto auto;
 
-    color: var(--color-text);
+  color: var(--color-text);
 }
 
 .main--flex-img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 
-    position: relative;
+  position: relative;
 }
 
 .main--flex-div {
-    height: 100%;
-    width: auto;
+  height: 100%;
+  width: auto;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-.main--boatImg-text{
-    position: absolute;
+.main--boatImg-text {
+  position: absolute;
 }
 
-.main--vaultariBackground-img{
-    width: 100%;
-    height: 100%;    
+.main--vaultariBackground-img {
+  width: 100%;
+  height: 100%;
 }
 
 .main--description-img {
-    width: 100%;
-    height: 100%;    
+  width: 100%;
+  height: 100%;
 }
 
 .main--feedback-container {
-    margin: 0;
+  margin: 0;
 
-    position: relative;
+  position: relative;
 }
 
 .main--description-container {
-    position: relative;
-    
-    margin: 0;
+  position: relative;
+
+  margin: 0;
 }
 
 .main--laptop-img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .main--partnersBackground-img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .main--contact-images-container {
-    display: grid;
-    grid-template-areas: 
+  display: grid;
+  grid-template-areas:
     "logo logo logo"
-    "social1 social2 social3"; 
+    "social1 social2 social3";
 
-    grid-template-rows: 60px 100px ;    
+  grid-template-rows: 60px 100px;
 
-    grid-template-columns: 55px 70px 40px;
+  grid-template-columns: 55px 70px 40px;
 
-    align-items: center;
+  align-items: center;
 
-    text-align: left;
+  text-align: left;
 }
 
 .social1-contact {
-    grid-area: social1;
+  grid-area: social1;
 }
 .social2-contact {
-    grid-area: social2;
+  grid-area: social2;
 }
 .social3-contact {
-    grid-area: social3;
+  grid-area: social3;
 }
 
 .main--contact-container-items-position {
-    color: var(--color-text);
+  color: var(--color-text);
 
-    text-transform: capitalize;
+  text-transform: capitalize;
 
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
-    justify-content: center;
+  justify-content: center;
 
-    gap: 200px;
+  gap: 200px;
 
-    padding: 8vw;
+  padding: 8vw;
 
-    font-family: var(--font-family-nav);
+  font-family: var(--font-family-nav);
 
-    background-color: var(--color-background-copyright-container-primary);
+  background-color: var(--color-background-copyright-container-primary);
 }
 
-  .main--contact-container  ul {
+.main--contact-container ul {
+  list-style: square;
 
-    list-style: square;
+  margin: 8px 0px;
 
-    margin: 8px 0px;
+  line-height: 2.5;
+}
 
-    line-height: 2.5;
-    
-  }
+.position ul li {
+  line-height: 2;
+  padding-left: 0px;
 
-  .position ul li {
-    line-height: 2.;
-    padding-left: 0px;
+  text-align: left;
+}
 
-    text-align: left;
+.main--contact-container span {
+  text-align: left;
+  margin-left: 25px;
 
-  }
+  font-weight: bolder;
+}
 
-  .main--contact-container span {
-    text-align: left;
-    margin-left: 25px;
+li::marker {
+  color: var(--color-list-footer-primary);
+}
 
-    font-weight: bolder;
-  }
+.main--bottom-nav-links-container {
+  display: flex;
+  flex-direction: row;
 
-  li::marker {
-    color: var(--color-list-footer-primary);
-  }
+  text-align: center;
 
-  .main--bottom-nav-links-container {
-    display: flex;
-    flex-direction: row;
+  justify-content: center;
 
-    text-align: center;
+  gap: 50px;
 
-    justify-content: center;
+  background-color: var(--color-nav-footer-primary);
 
-    gap: 50px;
+  padding: 25px;
 
-    background-color: var(--color-nav-footer-primary);
+  color: var(--color-text);
 
-    padding: 25px;
+  text-transform: capitalize;
 
-    color: var(--color-text);
+  font-family: var(--font-family-nav);
+}
 
-    text-transform: capitalize; 
+.main--copyright-container {
+  color: var(--color-text);
 
-    font-family: var(--font-family-nav);
-  }
+  background-color: var(--color-background-copyright-container-primary);
 
-  .main--copyright-container {
-    color: var(--color-text);
+  padding: 25px;
 
-    background-color: var(--color-background-copyright-container-primary);
+  text-align: center;
+}
 
-    padding: 25px;
-
-    text-align: center;
-  }
-
-  .main--contact-flex-products-container > h3{
-    margin: 0 20px;
-    text-align: left;
-    padding: 0;
+.main--contact-flex-products-container > h3 {
+  margin: 0 20px;
+  text-align: left;
+  padding: 0;
 }
 
 .main--contact-flex-contactInfo-container > h3 {
-    margin: 0 20px;
-    text-align: left;
-    padding: 0;
+  margin: 0 20px;
+  text-align: left;
+  padding: 0;
 }
 
 .main--contact-flex-contactInfo-container ul :first-child {
-    list-style-image: url(/images/list-styles/location-img.png);
+  list-style-image: url(/images/list-styles/location-img.png);
 }
 
 .main--contact-flex-contactInfo-container ul :nth-last-child(2) {
-    list-style-image: url(/images/list-styles/phone-img.png);
+  list-style-image: url(/images/list-styles/phone-img.png);
 }
 
 .main--contact-flex-contactInfo-container ul :last-child {
-    list-style-image: url(/images/list-styles/mail-img.png);
+  list-style-image: url(/images/list-styles/mail-img.png);
 }
-

@@ -1,97 +1,98 @@
 :root {
-    --color-text:#ffffff;
-    --color-background:#ffffff;
-    --color-nav-background:#1951d6;
-    --color-copyright-container:#000c2f;
-    --color-gradient-1: red;
-    --color-gradient-2:orange;
-    
-    --color-text-primary:var(--color-text);
-    --color-gradient-buttons-primary-2:var(--color-gradient-2);
-    --color-gradient-buttons-primary-1:var(--color-gradient-1);
-    --color-background-primary:var(--color-background);
-    --color-nav-footer-primary:var(--color-nav-background);
-    --color-list-footer-primary:var(--color-nav-background);
-    --color-background-copyright-container-primary:var(--color-copyright-container);
+  --color-text: #ffffff;
+  --color-background: #ffffff;
+  --color-nav-background: #1951d6;
+  --color-copyright-container: #000c2f;
+  --color-gradient-1: red;
+  --color-gradient-2: orange;
 
+  --color-text-primary: var(--color-text);
+  --color-gradient-buttons-primary-2: var(--color-gradient-2);
+  --color-gradient-buttons-primary-1: var(--color-gradient-1);
+  --color-background-primary: var(--color-background);
+  --color-nav-footer-primary: var(--color-nav-background);
+  --color-list-footer-primary: var(--color-nav-background);
+  --color-background-copyright-container-primary: var(
+    --color-copyright-container
+  );
 
-    --font-family-nav:'Montserrat', sans-serif;
-    --font-family-text:'Playfair Display', serif;
+  --font-family-nav: "Montserrat", sans-serif;
+  --font-family-text: "Playfair Display", serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 
-    color: inherit;  
+  color: inherit;
 }
 
 .header {
-    display: grid;
+  display: grid;
 
-    align-items: center;
+  align-items: center;
 
-    grid-template-rows: 100px;
+  grid-template-rows: 100px;
 
-    grid-template-areas: 'logo nav phone';
-    
-    z-index: 1;    
+  grid-template-areas: "logo nav phone";
+
+  z-index: 1;
 }
 
 .nav {
-    display: inline-block;
+  display: inline-block;
 
-    color: var(--color-text);
+  color: var(--color-text);
 
-    margin-left:100px;
+  margin-left: 100px;
 
-    z-index: 1;
+  z-index: 1;
 
-    font-family: var(--font-family);
+  font-family: var(--font-family);
 }
 
 .main {
-    background-color: var(--color-background-primary);
-    
-    margin: 0;
+  background-color: var(--color-background-primary);
 
-    font-family: var(--font-family-text);
+  margin: 0;
+
+  font-family: var(--font-family-text);
 }
 
 .nav--ul {
-    display: flex;
+  display: flex;
 
-    flex-direction: row;
+  flex-direction: row;
 }
 
 .nav--list {
-    margin-left:40px;
+  margin-left: 40px;
 
-    font-size: 13px;
+  font-size: 13px;
 
-    list-style: none;
+  list-style: none;
 
-    text-transform: capitalize;
+  text-transform: capitalize;
 
-    justify-content: center;
+  justify-content: center;
 }
 
 .phone {
-    font-weight: bolder;
+  font-weight: bolder;
 
-    font-size: 17px;
+  font-size: 17px;
 
-    grid-area: phone; 
+  grid-area: phone;
 
-    color: var(--color-text);
+  color: var(--color-text);
 
-    font-family: var(--font-family-nav);
+  font-family: var(--font-family-nav);
 
-    margin-left: 20px;
-    margin-right: 0px;
+  margin-left: 20px;
+  margin-right: 0px;
 
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
-.logo{
-    margin-left: 20px;
+.logo {
+  margin-left: 20px;
 }
