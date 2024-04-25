@@ -5,7 +5,7 @@
   --color-copyright-container: #000c2f;
   --color-gradient-1: red;
   --color-gradient-2: orange;
-
+  --color-text-feedback: #072975;
   --color-text-primary: var(--color-text);
   --color-gradient-buttons-primary-2: var(--color-gradient-2);
   --color-gradient-buttons-primary-1: var(--color-gradient-1);
@@ -18,6 +18,8 @@
 
   --font-family-nav: "Montserrat", sans-serif;
   --font-family-text: "Playfair Display", serif;
+  --font-family-buttons: var(--font-family-nav);
+  --color-font-feedback-heading: var(--color-text-feedback);
 }
 
 a {
@@ -35,6 +37,8 @@ a {
 
   grid-template-areas: "logo nav phone";
 
+  grid-template-columns: 1fr 2fr 200px;
+
   z-index: 1;
 }
 
@@ -47,7 +51,9 @@ a {
 
   z-index: 1;
 
-  font-family: var(--font-family);
+  font-family: var(--font-family-nav);
+
+  font-weight: bold;
 }
 
 .main {
@@ -91,8 +97,14 @@ a {
   margin-right: 0px;
 
   text-transform: capitalize;
+
+  z-index: 1;
 }
 
 .logo {
   margin-left: 20px;
+}
+
+.main--logo-a {
+  z-index: 1;
 }
