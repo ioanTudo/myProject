@@ -198,40 +198,106 @@ strong {
 }
 .boat-div {
   background-image: url(/images/banners/boatBanner.jpg);
-  background-color: #cccccc;
+  background-color: var(--color-text);
   height: 500px;
-  width: 400px;
+  width: 420px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  color: var(--color-text);
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
 }
+
 .heart-div {
   background-image: url(/images/banners/heartHandsBanner.jpg);
-  background-color: #cccccc;
+  background-color: var(--color-text);
   height: 500px;
-  width: 400px;
+  width: 420px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  color: var(--color-text);
+
+  text-align: center;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
 }
 .mountain-div {
   background-image: url(/images/banners/trackingBanner.jpg);
-  background-color: #cccccc;
+  background-color: var(--color-text);
   height: 500px;
-  width: 400px;
+  width: 420px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  color: var(--color-text);
+
+  text-align: center;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .worker-div {
   background-image: url(/images/banners/workerBanner.jpg);
-  background-color: #cccccc;
+  background-color: var(--color-text);
   height: 500px;
-  width: 400px;
+  width: 420px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  color: var(--color-text);
+
+  text-align: center;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.boat-text,
+.heart-text,
+.mountain-text,
+.worker-text {
+  margin: 150px auto;
+  text-align: center;
+}
+.boat-heading,
+.heart-heading,
+.mountain-heading,
+.worker-heading {
+  padding: 20px;
+
+  text-transform: capitalize;
+}
+
+.worker-heading {
+  font-size: 23px;
+  padding: 22px;
+}
+
+.boat-p,
+.heart-p,
+.mountain-p,
+.worker-p {
+  width: 90%;
+  font-size: 13px;
+
+  margin: auto;
 }
 
 .main--flex-img {
