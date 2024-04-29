@@ -319,7 +319,7 @@ strong {
   position: absolute;
   text-align: center;
 
-  margin-top: 57px;
+  margin-top: 75px;
 
   display: flex;
   gap: 40px;
@@ -340,7 +340,7 @@ strong {
   background-image: url(/images/banners/vaultariBackground.jpg);
 
   background-color: var(--color-background);
-  height: 60vw;
+  height: 65vw;
   width: 100vw;
   background-position: center;
   background-repeat: no-repeat;
