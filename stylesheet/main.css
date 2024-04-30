@@ -17,6 +17,8 @@
   );
   --color-box-shadow: rgba(149, 157, 165, 0.2);
 
+  --color-burger-menu: #ff7b54;
+
   --font-family-nav: "Montserrat", sans-serif;
   --font-family-text: "Playfair Display", serif;
   --font-family-buttons: var(--font-family-nav);
@@ -34,16 +36,15 @@ body {
 
 .header {
   display: grid;
-
   align-items: center;
 
-  grid-template-rows: 100px;
-
+  grid-template-columns: 300px 3fr 300px;
+  grid-template-rows: 1fr;
   grid-template-areas: "logo nav phone";
 
-  grid-template-columns: 1fr 2fr 200px;
+  text-align: center;
 
-  z-index: 1;
+  padding: 20px;
 }
 
 .nav {
@@ -51,13 +52,15 @@ body {
 
   color: var(--color-text);
 
-  margin-left: 100px;
-
   z-index: 1;
 
   font-family: var(--font-family-nav);
 
   font-weight: bold;
+
+  transition: left 0.2s linear;
+
+  justify-self: end;
 }
 
 .main {
@@ -77,13 +80,15 @@ body {
 .nav--list {
   margin-left: 40px;
 
-  font-size: 13px;
+  font-size: 12px;
 
   list-style: none;
 
   text-transform: capitalize;
 
   justify-content: center;
+
+  text-transform: uppercase;
 }
 
 .phone {
@@ -97,18 +102,122 @@ body {
 
   font-family: var(--font-family-nav);
 
-  margin-left: 20px;
-  margin-right: 0px;
-
-  text-transform: capitalize;
+  text-transform: uppercase;
 
   z-index: 1;
-}
-
-.logo {
-  margin-left: 20px;
 }
 
 .main--logo-a {
   z-index: 1;
+}
+.menu {
+  display: none;
+}
+
+.close {
+  display: none;
+}
+
+@media (max-width: 1220px) {
+  .main--quote-container > h1,
+  .main--info-text-container > h1,
+  .main--feedback-text-container > h1,
+  .getQuote-content > h1,
+  .ourPartners-text-container > h1 {
+    font-size: 33px;
+  }
+  .feedback-testimonial-header {
+    font-size: 13px;
+  }
+  .feedback-container-1 > p,
+  .feedback-container-2 > p,
+  .feedback-container-3 > p,
+  .main--feedback-text-container > p,
+  .getQuote-content > p,
+  .main--info-text-container > p {
+    font-size: 13px;
+  }
+
+  .mountain-text > h2,
+  .worker-text > h2 {
+    font-size: 17px;
+
+    padding-bottom: 27px;
+
+    margin-top: 30px;
+  }
+  .moreInfo-text-container-1 > h2,
+  .moreInfo-text-container-2 > h2 {
+    font-size: 17px;
+  }
+
+  .menu {
+    display: block;
+
+    cursor: pointer;
+  }
+
+  .main--moreInfo-wrapper {
+    margin: auto;
+  }
+
+  .close--visible {
+    display: block;
+
+    cursor: pointer;
+  }
+
+  .menu--hidden {
+    display: none;
+  }
+
+  .nav--ul {
+    flex-direction: column;
+  }
+
+  .nav--list {
+    font-size: 90px;
+
+    margin-top: 50px;
+
+    flex-direction: column;
+
+    color: var(--color-copyright-container);
+  }
+  .body--no-overflow {
+    overflow: hidden;
+  }
+
+  .header {
+    display: grid;
+
+    grid-template-columns: 150px 2fr 270px;
+    justify-items: center;
+
+    grid-template-areas: "logo menu phone";
+  }
+
+  .header > .nav {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--color-background);
+
+    top: 60px;
+    left: -120%;
+  }
+
+  .nav--visible {
+    left: 0;
+  }
+}
+
+@media (max-width: 840px) {
+}
+
+@media (max-width: 650px) {
+}
+
+@media (max-width: 300px) {
 }
