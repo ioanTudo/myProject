@@ -23,16 +23,6 @@
   text-transform: capitalize;
 }
 
-.main--banner-img {
-  max-width: 100%;
-
-  height: auto;
-
-  position: absolute;
-
-  padding: 0;
-}
-
 .button {
   width: 250px;
   height: 50px;
@@ -99,9 +89,7 @@ strong {
 }
 
 .main--info-text-container {
-  z-index: 1;
-
-  position: absolute;
+  position: relative;
 
   display: flex;
   flex-direction: column;
@@ -110,7 +98,7 @@ strong {
 
   color: var(--color-text);
 
-  margin-top: 77px;
+  top: 75px;
 }
 .main--moreInfo-container {
   position: relative;
@@ -127,7 +115,7 @@ strong {
   display: flex;
   flex-direction: row;
 
-  position: absolute;
+  position: relative;
 
   margin-left: 155px;
 
@@ -316,10 +304,10 @@ strong {
 }
 
 .main--feedback-text-container {
-  position: absolute;
+  position: relative;
   text-align: center;
 
-  margin-top: 75px;
+  top: 75px;
 
   display: flex;
   gap: 40px;
@@ -492,7 +480,7 @@ li::marker {
   text-transform: capitalize;
 }
 .getQuote-content {
-  position: absolute;
+  position: relative;
 
   color: var(--color-text);
 
