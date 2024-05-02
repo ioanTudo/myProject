@@ -118,7 +118,7 @@ body {
   display: none;
 }
 
-@media (max-width: 1220px) {
+@media (max-width: 1385px) {
   .main--quote-container > h1,
   .main--info-text-container > h1,
   .main--feedback-text-container > h1,
@@ -137,18 +137,26 @@ body {
   .main--info-text-container > p {
     font-size: 13px;
   }
+  .main .main--feedback-text-container {
+    top: 60px;
+  }
+  .main .getQuote-content {
+    bottom: 15px;
+  }
 
   .mountain-text > h2,
-  .worker-text > h2 {
-    font-size: 17px;
-
-    padding-bottom: 27px;
-
-    margin-top: 30px;
+  .worker-text > h2,
+  .boat-text > h2,
+  .heart-text > h2 {
+    font-size: 15px;
   }
   .moreInfo-text-container-1 > h2,
   .moreInfo-text-container-2 > h2 {
     font-size: 17px;
+  }
+  .main .moreInfo-text-container-1,
+  .main .moreInfo-text-container-2 {
+    margin-top: 170px;
   }
 
   .menu {
@@ -157,8 +165,9 @@ body {
     cursor: pointer;
   }
 
-  .main--moreInfo-wrapper {
-    margin: auto;
+  .main .main--moreInfo-wrapper {
+    margin-left: 140px;
+    gap: 83px;
   }
 
   .close--visible {
@@ -175,16 +184,25 @@ body {
     flex-direction: column;
   }
 
-  .main--info-text-container {
-    bottom: 40px;
+  .main .main--info-text-container {
+    top: 60px;
+  }
+
+  .main .boat-text,
+  .main .heart-text,
+  .main .mountain-text,
+  .main .worker-text {
+    margin: 180px auto;
+  }
+
+  .main .ourPartners-text-container {
+    margin-top: 65px;
   }
 
   .nav--list {
     font-size: 90px;
 
     margin-top: 50px;
-
-    flex-direction: column;
 
     color: var(--color-copyright-container);
   }
@@ -217,10 +235,84 @@ body {
   }
 }
 
-@media (max-width: 840px) {
+@media (max-width: 915px) {
+  .main--quote-container > h1,
+  .main--info-text-container > h1,
+  .main--feedback-text-container > h1,
+  .getQuote-content > h1,
+  .ourPartners-text-container > h1 {
+    font-size: 13px;
+  }
+  .feedback-testimonial-header {
+    font-size: 8px;
+  }
+  .feedback-container-1 > p,
+  .feedback-container-2 > p,
+  .feedback-container-3 > p,
+  .main--feedback-text-container > p,
+  .getQuote-content > p,
+  .main--info-text-container > p,
+  .main--quote-container > p {
+    font-size: 10px;
+  }
+
+  .main .button {
+    width: 200px;
+    height: 50px;
+
+    font-size: 13px;
+  }
+  .mountain-text > h2,
+  .worker-text > h2,
+  .boat-text > h2,
+  .heart-text > h2 {
+    font-size: 15px;
+  }
+
+  .heart-text .main .main--quote-container {
+    margin-top: 80px;
+  }
+
+  .moreInfo-text-container-1 > h2,
+  .moreInfo-text-container-2 > h2 {
+    font-size: 14px;
+  }
+
+  .description-wrapper {
+    display: grid;
+    grid-template-areas: 1fr 1fr;
+  }
+
+  .main .main--info-text-container {
+    top: 40px;
+  }
+  .main .boat-div,
+  .main .heart-div,
+  .main .mountain-div,
+  .main .worker-div {
+    height: 50vw;
+  }
+
+  .main .boat-text,
+  .main .heart-text,
+  .main .mountain-text,
+  .main .worker-text {
+    margin: 180px auto;
+  }
 }
 
 @media (max-width: 650px) {
+  .main .description-wrapper {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+  }
+  .main .boat-div,
+  .main .heart-div,
+  .main .mountain-div,
+  .main .worker-div {
+    height: 45vh;
+    width: 50vw;
+  }
 }
 
 @media (max-width: 300px) {
