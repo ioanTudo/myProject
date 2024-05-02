@@ -1,13 +1,25 @@
 :root {
-    --color-text:#ffffff;
-    --color-text-primary:var(--color-text);
-    --color-background:#ffffff;
-    --color-background-primary:var(var(--color-background));
+  --color-text: #ffffff;
+  --color-background: #ffffff;
+  --color-nav-background: #1951d6;
+  --color-copyright-container: #000c2f;
+  --color-gradient-1: red;
+  --color-gradient-2: orange;
+  --color-text-feedback: #072975;
+  --color-text-primary: var(--color-text);
+  --color-gradient-buttons-primary-2: var(--color-gradient-2);
+  --color-gradient-buttons-primary-1: var(--color-gradient-1);
+  --color-background-primary: var(--color-background);
+  --color-nav-footer-primary: var(--color-nav-background);
+  --color-list-footer-primary: var(--color-nav-background);
+  --color-background-copyright-container-primary: var(
+    --color-copyright-container
+  );
+  --color-box-shadow: rgba(149, 157, 165, 0.2);
 
-    --font-family-nav:'Montserrat', sans-serif;
-    --font-family-text:'Playfair Display', serif;
-}
+  --color-burger-menu: #ff7b54;
 
+<<<<<<< HEAD
 
 
 .nav {
@@ -73,14 +85,307 @@
 
     margin-left: 20px;
     margin-right: 0px;
+=======
+  --font-family-nav: "Montserrat", sans-serif;
+  --font-family-text: "Playfair Display", serif;
+  --font-family-buttons: var(--font-family-nav);
+  --color-font-feedback-heading: var(--color-text-feedback);
+>>>>>>> update-readme
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 
+<<<<<<< HEAD
     color: inherit;
+=======
+  color: inherit;
+}
+body {
+  margin: 0;
+>>>>>>> update-readme
 }
 
-.logo{
-    margin-left: 20px;
+.header {
+  display: grid;
+  align-items: center;
+
+  grid-template-columns: 300px 3fr 300px;
+  grid-template-rows: 1fr;
+  grid-template-areas: "logo nav phone";
+
+  text-align: center;
+
+  padding: 20px;
+}
+
+.nav {
+  display: inline-block;
+
+  color: var(--color-text);
+
+  z-index: 1;
+
+  font-family: var(--font-family-nav);
+
+  font-weight: bold;
+
+  transition: left 0.2s linear;
+
+  justify-self: end;
+}
+
+.main {
+  background-color: var(--color-background-primary);
+
+  margin: 0;
+
+  font-family: var(--font-family-text);
+}
+
+.nav--ul {
+  display: flex;
+
+  flex-direction: row;
+}
+
+.nav--list {
+  margin-left: 40px;
+
+  font-size: 12px;
+
+  list-style: none;
+
+  text-transform: capitalize;
+
+  justify-content: center;
+
+  text-transform: uppercase;
+}
+
+.phone {
+  font-weight: bolder;
+
+  font-size: 17px;
+
+  grid-area: phone;
+
+  color: var(--color-text);
+
+  font-family: var(--font-family-nav);
+
+  text-transform: uppercase;
+
+  z-index: 1;
+}
+
+.main--logo-a {
+  z-index: 1;
+}
+.menu {
+  display: none;
+}
+
+.close {
+  display: none;
+}
+
+@media (max-width: 1385px) {
+  .main--quote-container > h1,
+  .main--info-text-container > h1,
+  .main--feedback-text-container > h1,
+  .getQuote-content > h1,
+  .ourPartners-text-container > h1 {
+    font-size: 33px;
+  }
+  .feedback-testimonial-header {
+    font-size: 13px;
+  }
+  .feedback-container-1 > p,
+  .feedback-container-2 > p,
+  .feedback-container-3 > p,
+  .main--feedback-text-container > p,
+  .getQuote-content > p,
+  .main--info-text-container > p {
+    font-size: 13px;
+  }
+  .main .main--feedback-text-container {
+    top: 60px;
+  }
+  .main .getQuote-content {
+    bottom: 15px;
+  }
+
+  .mountain-text > h2,
+  .worker-text > h2,
+  .boat-text > h2,
+  .heart-text > h2 {
+    font-size: 15px;
+  }
+  .moreInfo-text-container-1 > h2,
+  .moreInfo-text-container-2 > h2 {
+    font-size: 17px;
+  }
+  .main .moreInfo-text-container-1,
+  .main .moreInfo-text-container-2 {
+    margin-top: 170px;
+  }
+
+  .menu {
+    display: block;
+
+    cursor: pointer;
+  }
+
+  .main .main--moreInfo-wrapper {
+    margin-left: 140px;
+    gap: 83px;
+  }
+
+  .close--visible {
+    display: block;
+
+    cursor: pointer;
+  }
+
+  .menu--hidden {
+    display: none;
+  }
+
+  .nav--ul {
+    flex-direction: column;
+  }
+
+  .main .main--info-text-container {
+    top: 60px;
+  }
+
+  .main .boat-text,
+  .main .heart-text,
+  .main .mountain-text,
+  .main .worker-text {
+    margin: 180px auto;
+  }
+
+  .main .ourPartners-text-container {
+    margin-top: 65px;
+  }
+
+  .nav--list {
+    font-size: 90px;
+
+    margin-top: 50px;
+
+    color: var(--color-copyright-container);
+  }
+  .body--no-overflow {
+    overflow: hidden;
+  }
+
+  .header {
+    display: grid;
+
+    grid-template-columns: 150px 2fr 270px;
+    justify-items: center;
+
+    grid-template-areas: "logo menu phone";
+  }
+
+  .header > .nav {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--color-background);
+
+    top: 60px;
+    left: -120%;
+  }
+
+  .nav--visible {
+    left: 0;
+  }
+}
+
+@media (max-width: 915px) {
+  .main--quote-container > h1,
+  .main--info-text-container > h1,
+  .main--feedback-text-container > h1,
+  .getQuote-content > h1,
+  .ourPartners-text-container > h1 {
+    font-size: 13px;
+  }
+  .feedback-testimonial-header {
+    font-size: 8px;
+  }
+  .feedback-container-1 > p,
+  .feedback-container-2 > p,
+  .feedback-container-3 > p,
+  .main--feedback-text-container > p,
+  .getQuote-content > p,
+  .main--info-text-container > p,
+  .main--quote-container > p {
+    font-size: 10px;
+  }
+
+  .main .button {
+    width: 200px;
+    height: 50px;
+
+    font-size: 13px;
+  }
+  .mountain-text > h2,
+  .worker-text > h2,
+  .boat-text > h2,
+  .heart-text > h2 {
+    font-size: 15px;
+  }
+
+  .heart-text .main .main--quote-container {
+    margin-top: 80px;
+  }
+
+  .moreInfo-text-container-1 > h2,
+  .moreInfo-text-container-2 > h2 {
+    font-size: 14px;
+  }
+
+  .description-wrapper {
+    display: grid;
+    grid-template-areas: 1fr 1fr;
+  }
+
+  .main .main--info-text-container {
+    top: 40px;
+  }
+  .main .boat-div,
+  .main .heart-div,
+  .main .mountain-div,
+  .main .worker-div {
+    height: 50vw;
+  }
+
+  .main .boat-text,
+  .main .heart-text,
+  .main .mountain-text,
+  .main .worker-text {
+    margin: 180px auto;
+  }
+}
+
+@media (max-width: 650px) {
+  .main .description-wrapper {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+  }
+  .main .boat-div,
+  .main .heart-div,
+  .main .mountain-div,
+  .main .worker-div {
+    height: 45vh;
+    width: 50vw;
+  }
+}
+
+@media (max-width: 300px) {
 }
