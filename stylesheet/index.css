@@ -68,13 +68,14 @@ strong {
 .main--info-container {
   position: relative;
 
-  background-image: url(/images/banners/Layer\ 20.png);
+  background-image: url(/images/banners/blueBackgroundLayer.jpg);
   background-color: var(--color-background);
   background-position: top center;
   background-size: cover;
   width: 100vw;
   height: 40vw;
 }
+
 .feedback-testimonial-header {
   text-transform: uppercase;
 
@@ -105,10 +106,6 @@ strong {
   background-color: var(--color-background);
   height: 60vw;
   width: 100vw;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(/images/banners/descriptionBackground.jpg);
 }
 
 .main--moreInfo-wrapper {
@@ -168,6 +165,12 @@ strong {
   font-size: 40px;
 
   padding-bottom: 45px;
+}
+
+.main--info-heading ::after {
+  background: url(/images/banners/blueCenterDivider.png) no-repeat;
+
+  content: "";
 }
 
 .main--flex-images-container {
@@ -325,7 +328,7 @@ strong {
 .main--feedback-container {
   position: relative;
 
-  background-image: url(/images/banners/vaultariBackground.jpg);
+  background-image: url(/images/banners/whiteVaultariBackground.jpg);
 
   background-color: var(--color-background);
   height: 65vw;
