@@ -85,8 +85,11 @@ strong {
 
   font-weight: bold;
 
-  padding: 0;
+  padding-top: 50px;
+
   margin-bottom: 0;
+
+  text-align: center;
 }
 
 .main--info-text-container {
@@ -103,9 +106,12 @@ strong {
 }
 .main--moreInfo-container {
   position: relative;
-  background-color: var(--color-background);
+  background-color: var(--color-font-feedback-heading);
   height: 60vw;
   width: 100vw;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .main--moreInfo-wrapper {
@@ -118,45 +124,24 @@ strong {
 
   gap: 100px;
 }
-.moreInfo-text-heading-1,
-.moreInfo-text-heading-2 {
-  color: var(--color-text);
-  text-transform: capitalize;
-
+.moreInfo-heading {
   text-align: left;
+  color: var(--color-background);
+  padding: 50px 20px 40px 80px;
 
-  padding-bottom: 30px;
+  background: url(/images/banners/blueFloatLeftDivider.png) left bottom
+    no-repeat;
 }
-.moreInfo-text-p-1,
-.moreInfo-text-p-2 {
-  color: var(--color-text);
+.moreInfo-p {
+  text-align: left;
+  color: var(--color-background);
   font-family: var(--font-family-nav);
 
-  line-height: 1.7;
+  width: 80%;
 
-  font-size: 13px;
+  line-height: 1.5;
 
-  width: 75%;
-}
-
-.moreInfo-text-container-1,
-.moreInfo-text-container-2 {
-  position: relative;
-  width: 45%;
-
-  margin: 195px 0 0 0;
-}
-
-.main--info-p {
-  font-size: 15px;
-
-  line-height: 1.8;
-
-  width: 52%;
-
-  margin: auto;
-
-  font-family: var(--font-family-nav);
+  padding: 0 20px 40px 80px;
 }
 
 .main--info-heading {
@@ -164,13 +149,9 @@ strong {
 
   font-size: 40px;
 
-  padding-bottom: 45px;
-}
+  padding-bottom: 50px;
 
-.main--info-heading ::after {
-  background: url(/images/banners/blueCenterDivider.png) no-repeat;
-
-  content: "";
+  background: url("/images/banners/blueCenterDivider.png") bottom no-repeat;
 }
 
 .main--flex-images-container {
@@ -186,11 +167,13 @@ strong {
 .description-wrapper {
   display: flex;
   flex-direction: row;
+
+  justify-items: center;
 }
 .boat-div {
-  background-image: url(/images/banners/boatBanner.jpg);
+  background-image: url(/images/banners/boat-img.jpg);
   background-color: var(--color-text);
-  height: 500px;
+  height: 100%;
   width: 420px;
   background-position: center;
   background-repeat: no-repeat;
@@ -205,9 +188,9 @@ strong {
 }
 
 .heart-div {
-  background-image: url(/images/banners/heartHandsBanner.jpg);
+  background-image: url(/images/banners/heart-img.jpg);
   background-color: var(--color-text);
-  height: 500px;
+  height: 100%;
   width: 420px;
   background-position: center;
   background-repeat: no-repeat;
@@ -223,9 +206,9 @@ strong {
   flex-direction: column;
 }
 .mountain-div {
-  background-image: url(/images/banners/trackingBanner.jpg);
+  background-image: url(/images/banners/mountain-img.jpg);
   background-color: var(--color-text);
-  height: 500px;
+  height: 100%;
   width: 420px;
   background-position: center;
   background-repeat: no-repeat;
@@ -242,9 +225,9 @@ strong {
 }
 
 .worker-div {
-  background-image: url(/images/banners/workerBanner.jpg);
+  background-image: url(/images/banners/worker-img.jpg);
   background-color: var(--color-text);
-  height: 500px;
+  height: 100%;
   width: 420px;
   background-position: center;
   background-repeat: no-repeat;
@@ -274,6 +257,13 @@ strong {
   padding: 20px;
 
   text-transform: capitalize;
+}
+
+.boat-heading,
+.heart-heading,
+.mountain-heading,
+.worker-heading {
+  background: url("/images/banners/blueLineDivider.png") bottom no-repeat;
 }
 
 .worker-heading {
@@ -306,15 +296,56 @@ strong {
   flex-direction: column;
 }
 
+.moreInfo-text-container {
+  display: flex;
+  margin: 0;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: center;
+}
+.text-container-1,
+.text-container-2 {
+  width: 40vw;
+  height: 40vw;
+
+  background-color: var(--moreInfo-background-color);
+}
+
+.feedback-text-container {
+  padding-top: 45px;
+}
+
 .main--feedback-text-container {
   position: relative;
   text-align: center;
 
-  top: 75px;
+  top: 74px;
 
-  display: flex;
-  gap: 40px;
   flex-direction: column;
+
+  padding-bottom: 90px;
+}
+.designDivider-bottom {
+  width: 2px;
+  height: 150px;
+
+  padding-bottom: 0;
+
+  position: relative;
+
+  margin: auto auto 0 auto;
+}
+
+.designDivider-top {
+  width: 2px;
+  height: 150px;
+
+  margin: 0 auto;
+  position: relative;
+}
+
+.blue {
+  background-color: var(--color-nav-background);
 }
 
 .main--feedback-heading {
@@ -323,11 +354,23 @@ strong {
   text-transform: capitalize;
 
   font-size: 40px;
+
+  padding-bottom: 50px;
+
+  text-align: center;
+
+  background: url("/images/banners/blueCenterDivider.png") bottom no-repeat;
+}
+
+.feedback-containers-wrapper {
+  display: flex;
+  flex-direction: row;
+
+  margin: auto;
+  gap: 70px;
 }
 
 .main--feedback-container {
-  position: relative;
-
   background-image: url(/images/banners/whiteVaultariBackground.jpg);
 
   background-color: var(--color-background);
@@ -336,8 +379,12 @@ strong {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  display: flex;
+  flex-direction: column;
 }
 .main--feedback-wrap {
+  position: relative;
   display: flex;
   flex-direction: row;
 
@@ -348,7 +395,7 @@ strong {
 .feedback-container-3 {
   box-shadow: var(--color-box-shadow) 0px 8px 24px;
   text-align: center;
-  width: 20%;
+  width: 20vw;
   height: auto;
 
   background-color: var(--color-background);
@@ -361,16 +408,12 @@ strong {
 }
 
 .main--feedback-p {
-  line-height: 1.7;
+  line-height: 2;
 
   width: 58%;
   margin: auto;
 
   font-family: var(--font-family-nav);
-}
-
-.main--description-container {
-  position: relative;
 }
 
 .main--laptop-img {
@@ -478,7 +521,9 @@ li::marker {
   height: auto;
 }
 .getQuote-heading {
-  padding-bottom: 35px;
+  padding-bottom: 45px;
+
+  background: url("/images/banners/whiteCenterDivider.png") bottom no-repeat;
 
   text-transform: capitalize;
 }
@@ -489,7 +534,7 @@ li::marker {
 
   text-align: center;
 
-  margin-top: 10.5vw;
+  margin-top: 5px;
 }
 .main--getQuote-container {
   display: flex;
@@ -511,7 +556,7 @@ li::marker {
 
   margin: auto;
 
-  padding-bottom: 35px;
+  padding-bottom: 45px;
 
   line-height: 1.7;
 }
@@ -535,23 +580,41 @@ li::marker {
   background-color: var(--color-background);
   height: 30vw;
   width: 100vw;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(/images/banners/ourPartnersBackground.jpg);
 
   display: flex;
   flex-direction: column;
 }
 
-.main--ourPartners-container > div {
-  color: var(--color-text-feedback);
+.ourPartners-logo-container {
+  display: flex;
+  flex-direction: column;
 
-  margin: 95px auto;
+  margin: 0 auto;
+}
+
+.logo-wrapper-1,
+.logo-wrapper-2 {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 180px;
+
+  flex-direction: row;
 
   text-align: center;
+}
+.ourPartners-heading {
+  text-align: center;
+  color: var(--moreInfo-background-color);
 
   text-transform: capitalize;
+
+  padding-bottom: 100px;
+
+  margin-top: 50px;
+
+  background: url(/images/banners/blueCenterDivider.png) center no-repeat;
 }
 
 .main--copyright-container {
