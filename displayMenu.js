@@ -1,7 +1,7 @@
 const nav = document.querySelector(".nav");
 const menu = document.querySelector(".menu");
 const closeButton = document.querySelector(".close");
-const bodyScroll = document.querySelector(".main");
+const bodyScroll = document.querySelector("body");
 
 menu.addEventListener("click", () => {
   nav.classList.add("nav--visible");

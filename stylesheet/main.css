@@ -194,6 +194,8 @@ li :hover {
   .close--visible {
     display: block;
 
+    z-index: 2;
+
     cursor: pointer;
   }
 
@@ -221,9 +223,9 @@ li :hover {
   }
 
   .nav--list {
-    font-size: 90px;
+    font-size: 80px;
 
-    margin-top: 50px;
+    margin-top: 80px;
 
     color: var(--color-copyright-container);
   }
@@ -240,14 +242,15 @@ li :hover {
     grid-template-areas: "logo menu phone";
   }
 
-  .header > .nav {
+  .nav {
     position: absolute;
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
 
     background-color: var(--color-background);
+    color: var(--color-copyright-container);
 
-    top: 60px;
+    top: 0px;
     left: -120%;
   }
 
@@ -334,7 +337,4 @@ li :hover {
     height: 45vh;
     width: 50vw;
   }
-}
-
-@media (max-width: 300px) {
 }
