@@ -16,6 +16,8 @@
     --color-copyright-container
   );
 
+  --color-hover: #fdde55;
+
   --moreInfo-background-color: #2b4885;
 
   --color-box-shadow: rgba(149, 157, 165, 0.2);
@@ -94,6 +96,20 @@ body {
   justify-content: center;
 
   text-transform: uppercase;
+}
+
+li :hover {
+  color: var(--color-hover);
+}
+.bottom-nav :hover {
+  color: var(--color-hover);
+}
+.button:hover {
+  background-image: linear-gradient(
+    to left,
+    var(--color-gradient-buttons-primary-1),
+    var(--color-gradient-buttons-primary-2)
+  );
 }
 
 .phone {

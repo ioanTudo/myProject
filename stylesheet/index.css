@@ -306,7 +306,7 @@ strong {
 .text-container-1,
 .text-container-2 {
   width: 40vw;
-  height: 40vw;
+  height: 42vw;
 
   background-color: var(--moreInfo-background-color);
 }
@@ -327,7 +327,7 @@ strong {
 }
 .designDivider-bottom {
   width: 2px;
-  height: 150px;
+  height: 135px;
 
   padding-bottom: 0;
 
@@ -338,7 +338,7 @@ strong {
 
 .designDivider-top {
   width: 2px;
-  height: 150px;
+  height: 135px;
 
   margin: 0 auto;
   position: relative;
@@ -360,6 +360,15 @@ strong {
   text-align: center;
 
   background: url("/images/banners/blueCenterDivider.png") bottom no-repeat;
+}
+
+.main--info-p {
+  width: 47%;
+  margin: auto;
+
+  line-height: 1.6;
+
+  font-family: var(--font-family-nav);
 }
 
 .feedback-containers-wrapper {
