@@ -139,7 +139,7 @@ li :hover {
   display: none;
 }
 
-@media (max-width: 1385px) {
+@media (max-width: 1390px) {
   .main--quote-container > h1,
   .main--info-text-container > h1,
   .main--feedback-text-container > h1,
@@ -169,7 +169,7 @@ li :hover {
   .worker-text > h2,
   .boat-text > h2,
   .heart-text > h2 {
-    font-size: 15px;
+    font-size: 17px;
   }
   .moreInfo-text-container-1 > h2,
   .moreInfo-text-container-2 > h2 {
@@ -218,10 +218,6 @@ li :hover {
     margin: 180px auto;
   }
 
-  .main .ourPartners-text-container {
-    margin-top: 65px;
-  }
-
   .nav--list {
     font-size: 80px;
 
@@ -251,7 +247,7 @@ li :hover {
     color: var(--color-copyright-container);
 
     top: 0px;
-    left: -120%;
+    left: -130%;
   }
 
   .nav--visible {
@@ -259,32 +255,97 @@ li :hover {
   }
 }
 
-@media (max-width: 915px) {
+@media (max-width: 1120px) {
   .main--quote-container > h1,
   .main--info-text-container > h1,
-  .main--feedback-text-container > h1,
   .getQuote-content > h1,
-  .ourPartners-text-container > h1 {
+  .main--feedback-heading,
+  .ourPartners-text-container {
+    font-size: 24px;
+  }
+  .body--no-overflow {
+    overflow: hidden;
+  }
+
+  .main .ourPartners-heading {
+    font-size: 24px;
+
+    padding-bottom: 65px;
+  }
+
+  .main .logo-wrapper-1 {
+    gap: 100px;
+  }
+  .main .logo-wrapper-2 {
+    gap: 100px;
+  }
+
+  .main .contact-products-li {
     font-size: 13px;
   }
-  .feedback-testimonial-header {
-    font-size: 8px;
+
+  .main .feedback-testimonial-header {
+    font-size: 13px;
+
+    padding-top: 30px;
   }
+
+  .feedback-testimonial-header {
+    font-size: 12px;
+  }
+  .main .feedback-containers-wrapper {
+    gap: 50px;
+  }
+
+  .main .feedback-container-1 {
+    padding: 25px;
+
+    font-size: small;
+  }
+  .main .feedback-container-2 {
+    padding: 25px;
+
+    font-size: small;
+  }
+  .main .feedback-container-3 {
+    padding: 25px;
+
+    font-size: small;
+  }
+  .main .moreInfo-heading {
+    font-size: 15px;
+
+    padding-left: 60px;
+
+    padding: 30px 20px 40px 60px;
+  }
+
+  .main .moreInfo-p {
+    font-size: 9px;
+    width: 70%;
+    padding: 0 20px 40px 60px;
+  }
+
+  .main .logo-ourPartners {
+    width: 120px;
+    height: 50px;
+  }
+
   .feedback-container-1 > p,
   .feedback-container-2 > p,
   .feedback-container-3 > p,
-  .main--feedback-text-container > p,
+  .main--feedback-p,
   .getQuote-content > p,
   .main--info-text-container > p,
   .main--quote-container > p {
-    font-size: 10px;
+    font-size: 9px;
   }
 
   .main .button {
-    width: 200px;
-    height: 50px;
+    width: 160px;
+    height: 40px;
 
-    font-size: 13px;
+    font-size: 10px;
   }
   .mountain-text > h2,
   .worker-text > h2,
@@ -307,9 +368,13 @@ li :hover {
     grid-template-areas: 1fr 1fr;
   }
 
-  .main .main--info-text-container {
-    top: 40px;
+  .main .designDivider-bottom {
+    height: 83px;
   }
+  .main .designDivider-top {
+    height: 83px;
+  }
+
   .main .boat-div,
   .main .heart-div,
   .main .mountain-div,
@@ -317,24 +382,219 @@ li :hover {
     height: 50vw;
   }
 
-  .main .boat-text,
-  .main .heart-text,
-  .main .mountain-text,
-  .main .worker-text {
-    margin: 180px auto;
-  }
-}
+  .main .contact-products-li {
+    width: 95%;
 
-@media (max-width: 650px) {
-  .main .description-wrapper {
-    display: grid;
-    grid-template-columns: 50vw 50vw;
+    font-size: 10px;
   }
-  .main .boat-div,
-  .main .heart-div,
-  .main .mountain-div,
-  .main .worker-div {
-    height: 45vh;
-    width: 50vw;
+
+  .main--contact-flex-products-container .products-heading {
+    font-size: 18px;
+  }
+
+  .main--contact-flex-contactInfo-container .contactInfo-heading {
+    font-size: 18px;
+  }
+  .main .bottom-nav {
+    font-size: 10px;
+  }
+
+  @media (max-width: 550px) {
+    .main .logo {
+      width: 150px;
+      height: 50px;
+    }
+    .body--no-overflow {
+      overflow: hidden;
+    }
+    .main .main--quote-container {
+      margin-top: 2vw;
+    }
+    .main .main--quote-heading {
+      font-size: 19px;
+    }
+    .main .main--quote-container > p {
+      font-size: 7px;
+    }
+
+    .main .button {
+      width: 130px;
+      height: 35px;
+    }
+    .main .main--info-text-container {
+      top: 20px;
+    }
+    .main .main--info-text-container > h1 {
+      font-size: 17px;
+    }
+    .main .main--info-text-container > p {
+      font-size: 6px;
+    }
+    .main .main--description-container {
+      display: grid;
+      grid-template-areas: "div1 div2";
+      grid-template-columns: 50vw 50vw;
+    }
+
+    .main .boat-div,
+    .main .heart-div,
+    .main .mountain-div,
+    .main .worker-div {
+      width: 50vw;
+    }
+    .mountain-text > h2,
+    .worker-text > h2,
+    .boat-text > h2,
+    .heart-text > h2 {
+      font-size: 17px;
+    }
+    .main .boat-text,
+    .main .heart-text,
+    .main .mountain-text,
+    .main .worker-text {
+      margin: 70px auto;
+    }
+    .main .feedback-text-container {
+      padding-top: 15px;
+    }
+    .main .main--feedback-heading {
+      font-size: 15px;
+
+      padding-bottom: 35px;
+    }
+    .main--feedback-p {
+      font-size: 7px;
+    }
+    .main .feedback-testimonial-header {
+      padding-top: 15px;
+
+      font-size: 10px;
+    }
+    .main .feedback-containers-wrapper {
+      gap: 30px;
+    }
+    .main .feedback-container-1 {
+      padding: 10px;
+
+      font-size: 8px;
+    }
+    .main .feedback-container-2 {
+      padding: 10px;
+
+      font-size: 8px;
+    }
+    .main .feedback-container-3 {
+      padding: 10px;
+
+      font-size: 8px;
+    }
+    .main .feedback-container-1 > p {
+      font-size: 6px;
+    }
+    .main .feedback-container-2 > p {
+      font-size: 6px;
+    }
+    .main .feedback-container-3 > p {
+      font-size: 6px;
+    }
+
+    .main .feedback-container-1 > h2 {
+      font-size: 10px;
+    }
+    .main .feedback-container-2 > h2 {
+      font-size: 10px;
+    }
+    .main .feedback-container-3 > h2 {
+      font-size: 10px;
+    }
+    .main .moreInfo-heading {
+      font-size: 8px;
+
+      padding: 30px 10px 40px 40px;
+    }
+    .main .moreInfo-p {
+      font-size: 5px;
+
+      padding: 0px 10px 40px 40px;
+    }
+    .main .getQuote-heading {
+      font-size: 17px;
+    }
+    .main .getQuote-p {
+      font-size: 6px;
+
+      padding-bottom: 15px;
+    }
+    .main .ourPartners-heading {
+      font-size: 17px;
+
+      margin-top: 20px;
+    }
+    .main .logo-ourPartners {
+      width: 37px;
+      height: 20px;
+    }
+
+    .main .logo-wrapper-1 {
+      gap: 70px;
+    }
+    .main .logo-wrapper-2 {
+      gap: 70px;
+    }
+    .main .main--contact-logo-img {
+      width: 150px;
+      height: auto;
+    }
+
+    .main .main--contact-facebook-img {
+      width: 15px;
+      height: 25px;
+    }
+    .main .main--contact-linkedIn-img {
+      width: 17px;
+      height: 23px;
+    }
+    .main .main--contact-twitter-img {
+      width: 15px;
+      height: 20px;
+    }
+    .main .main--contact-container-items-position {
+      gap: 65px;
+    }
+
+    .main .products-heading {
+      font-size: 13px;
+    }
+    .main .contactInfo-heading {
+      font-size: 13px;
+    }
+
+    .main .contact-products-li {
+      font-size: 7px;
+    }
+    .main .main--contact-container ul {
+      width: 90%;
+      margin-left: 0;
+    }
+
+    .main .bottom-nav {
+      font-size: 6px;
+    }
+
+    .main .main--bottom-nav-links-container {
+      padding: 17px;
+    }
+    .main--copyright-container {
+      font-size: 10px;
+    }
+
+    .main .nav--list {
+      font-size: 40px;
+
+      margin-top: 65px;
+      margin-left: 0px;
+
+      color: var(--color-copyright-container);
+    }
   }
 }

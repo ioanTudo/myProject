@@ -12,8 +12,6 @@
 }
 
 .main--quote-heading {
-  font-size: 50px;
-
   width: 65%;
 
   margin: auto;
@@ -129,6 +127,8 @@ strong {
   color: var(--color-background);
   padding: 50px 20px 40px 80px;
 
+  font-size: 25px;
+
   background: url(/images/banners/blueFloatLeftDivider.png) left bottom
     no-repeat;
 }
@@ -164,17 +164,19 @@ strong {
 
   color: var(--color-text);
 }
-.description-wrapper {
+.main--description-container {
   display: flex;
   flex-direction: row;
+
+  position: relative;
 
   justify-items: center;
 }
 .boat-div {
   background-image: url(/images/banners/boat-img.jpg);
   background-color: var(--color-text);
-  height: 100%;
-  width: 420px;
+  height: 29.1vw;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -190,8 +192,8 @@ strong {
 .heart-div {
   background-image: url(/images/banners/heart-img.jpg);
   background-color: var(--color-text);
-  height: 100%;
-  width: 420px;
+  height: 29.1vw;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -208,8 +210,8 @@ strong {
 .mountain-div {
   background-image: url(/images/banners/mountain-img.jpg);
   background-color: var(--color-text);
-  height: 100%;
-  width: 420px;
+  height: 29.1vw;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -223,12 +225,11 @@ strong {
   display: flex;
   flex-direction: column;
 }
-
 .worker-div {
   background-image: url(/images/banners/worker-img.jpg);
   background-color: var(--color-text);
-  height: 100%;
-  width: 420px;
+  height: 29.1vw;
+  width: 100vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -353,8 +354,6 @@ strong {
 
   text-transform: capitalize;
 
-  font-size: 40px;
-
   padding-bottom: 50px;
 
   text-align: center;
@@ -470,7 +469,7 @@ strong {
 
   justify-content: center;
 
-  gap: 200px;
+  gap: 170px;
 
   padding: 8vw;
 
@@ -624,6 +623,9 @@ li::marker {
   margin-top: 50px;
 
   background: url(/images/banners/blueCenterDivider.png) center no-repeat;
+}
+.main--contact-container ul {
+  width: 87%;
 }
 
 .main--copyright-container {
