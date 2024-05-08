@@ -395,226 +395,488 @@ li :hover {
   .main--contact-flex-contactInfo-container .contactInfo-heading {
     font-size: 18px;
   }
+}
+.main .bottom-nav {
+  font-size: 10px;
+}
+
+@media (max-width: 550px) {
+  .main .logo {
+    width: 150px;
+    height: 50px;
+  }
+
+  .body--no-overflow {
+    overflow: hidden;
+  }
+  .main .main--quote-container {
+    margin-top: 2vw;
+  }
+  .main .main--quote-heading {
+    font-size: 19px;
+  }
+  .main .main--quote-container > p {
+    font-size: 7px;
+  }
+  .main .phone {
+    font-size: 12px;
+  }
+
+  .main .button {
+    width: 130px;
+    height: 35px;
+  }
+  .main .main--info-text-container {
+    top: 17px;
+  }
+  .main .main--info-text-container > h1 {
+    font-size: 17px;
+
+    padding-bottom: 25px;
+
+    background-size: 25vw;
+  }
+  .main .main--info-text-container > p {
+    font-size: 6px;
+  }
+  .main .main--description-container {
+    display: grid;
+    grid-template-areas: "div1 div2";
+    grid-template-columns: 50vw 50vw;
+  }
+
+  .main .boat-div,
+  .main .heart-div,
+  .main .mountain-div,
+  .main .worker-div {
+    width: 50vw;
+  }
+  .mountain-text > h2,
+  .worker-text > h2,
+  .boat-text > h2,
+  .heart-text > h2 {
+    font-size: 17px;
+  }
+  .main .boat-text,
+  .main .heart-text,
+  .main .mountain-text,
+  .main .worker-text {
+    margin: 70px auto;
+  }
+  .main .feedback-text-container {
+    padding-top: 15px;
+  }
+  .main .main--feedback-heading {
+    font-size: 15px;
+
+    background-size: 25vw;
+
+    padding-bottom: 25px;
+  }
+  .main--feedback-p {
+    font-size: 7px;
+  }
+  .main .feedback-testimonial-header {
+    padding-top: 15px;
+
+    font-size: 10px;
+  }
+  .main .feedback-containers-wrapper {
+    gap: 30px;
+  }
+  .main .feedback-container-1 {
+    padding: 10px;
+
+    font-size: 8px;
+  }
+  .main .feedback-container-2 {
+    padding: 10px;
+
+    font-size: 8px;
+  }
+  .main .feedback-container-3 {
+    padding: 10px;
+
+    font-size: 8px;
+  }
+  .main .feedback-container-1 > p {
+    font-size: 6px;
+  }
+  .main .feedback-container-2 > p {
+    font-size: 6px;
+  }
+  .main .feedback-container-3 > p {
+    font-size: 6px;
+  }
+
+  .main .feedback-container-1 > h2 {
+    font-size: 10px;
+  }
+  .main .feedback-container-2 > h2 {
+    font-size: 10px;
+  }
+  .main .feedback-container-3 > h2 {
+    font-size: 10px;
+  }
+  .main .moreInfo-heading {
+    font-size: 8px;
+
+    padding: 30px 10px 25px 40px;
+
+    background-size: 25vw;
+  }
+  .main .moreInfo-p {
+    font-size: 5px;
+
+    padding: 0px 10px 40px 40px;
+  }
+  .main .getQuote-heading {
+    font-size: 17px;
+
+    background-size: 25vw;
+
+    padding-bottom: 25px;
+  }
+  .main .getQuote-p {
+    font-size: 6px;
+
+    padding-bottom: 15px;
+  }
+  .main .ourPartners-heading {
+    font-size: 17px;
+
+    margin-top: 20px;
+
+    padding-bottom: 40px;
+
+    background-size: 25vw;
+  }
+  .main .logo-ourPartners {
+    width: 37px;
+    height: 20px;
+  }
+
+  .main .logo-wrapper-1 {
+    gap: 70px;
+  }
+  .main .logo-wrapper-2 {
+    gap: 70px;
+  }
+  .main .main--contact-logo-img {
+    width: 100px;
+    height: auto;
+  }
+  .main .main--contact-images-container {
+    grid-template-rows: 40px 80px;
+    grid-template-columns: 35px 35px 35px;
+  }
+
+  .main .main--contact-facebook-img {
+    width: 10px;
+    height: 20px;
+  }
+  .main .main--contact-linkedIn-img {
+    width: 13px;
+    height: 17px;
+  }
+  .main .main--contact-twitter-img {
+    width: 15px;
+    height: 15px;
+  }
+  .main .main--contact-container-items-position {
+    gap: 45px;
+  }
+
+  .main .products-heading {
+    font-size: 10px;
+    margin-left: 30px;
+  }
+  .main .contactInfo-heading {
+    font-size: 10px;
+
+    margin-left: 20px;
+  }
+
+  .main .contact-products-li ::marker {
+    font-size: 5px;
+  }
+  .main .main--contact-container ul {
+    width: 90%;
+    margin-left: 0;
+  }
+
   .main .bottom-nav {
+    font-size: 6px;
+  }
+
+  .main .main--bottom-nav-links-container {
+    padding: 17px;
+  }
+  .main--copyright-container {
     font-size: 10px;
   }
 
-  @media (max-width: 550px) {
-    .main .logo {
-      width: 150px;
-      height: 50px;
-    }
+  .main .nav--list {
+    font-size: 40px;
 
-    .body--no-overflow {
-      overflow: hidden;
-    }
-    .main .main--quote-container {
-      margin-top: 2vw;
-    }
-    .main .main--quote-heading {
-      font-size: 19px;
-    }
-    .main .main--quote-container > p {
-      font-size: 7px;
-    }
-    .main .phone {
-      font-size: 12px;
-    }
+    margin-top: 65px;
+    margin-left: 0px;
 
-    .main .button {
-      width: 130px;
-      height: 35px;
-    }
-    .main .main--info-text-container {
-      top: 17px;
-    }
-    .main .main--info-text-container > h1 {
-      font-size: 17px;
+    color: var(--color-copyright-container);
+  }
+}
 
-      padding-bottom: 25px;
+@media (max-width: 391px) {
+  .main .logo {
+    width: 70px;
+    height: 20px;
+  }
+  .header {
+    grid-template-columns: 50px 2fr 90px;
+  }
 
-      background-size: 25vw;
-    }
-    .main .main--info-text-container > p {
-      font-size: 6px;
-    }
-    .main .main--description-container {
-      display: grid;
-      grid-template-areas: "div1 div2";
-      grid-template-columns: 50vw 50vw;
-    }
+  .main .menu {
+    width: 20px;
+    height: 20px;
+  }
 
-    .main .boat-div,
-    .main .heart-div,
-    .main .mountain-div,
-    .main .worker-div {
-      width: 50vw;
-    }
-    .mountain-text > h2,
-    .worker-text > h2,
-    .boat-text > h2,
-    .heart-text > h2 {
-      font-size: 17px;
-    }
-    .main .boat-text,
-    .main .heart-text,
-    .main .mountain-text,
-    .main .worker-text {
-      margin: 70px auto;
-    }
-    .main .feedback-text-container {
-      padding-top: 15px;
-    }
-    .main .main--feedback-heading {
-      font-size: 15px;
+  .body--no-overflow {
+    overflow: hidden;
+  }
+  .main .main--quote-container {
+    margin-top: 5vw;
+  }
+  .main .main--quote-heading {
+    font-size: 10px;
+  }
+  .main .main--quote-container > p {
+    font-size: 5px;
 
-      background-size: 25vw;
+    margin: 5vw auto;
+  }
 
-      padding-bottom: 25px;
-    }
-    .main--feedback-p {
-      font-size: 7px;
-    }
-    .main .feedback-testimonial-header {
-      padding-top: 15px;
+  .main .phone {
+    font-size: 10px;
+  }
 
-      font-size: 10px;
-    }
-    .main .feedback-containers-wrapper {
-      gap: 30px;
-    }
-    .main .feedback-container-1 {
-      padding: 10px;
+  .main .button {
+    width: 80px;
+    height: 20px;
 
-      font-size: 8px;
-    }
-    .main .feedback-container-2 {
-      padding: 10px;
+    font-size: 5px;
+  }
+  .main .main--info-text-container {
+    top: 17px;
+  }
+  .main .main--info-text-container > h1 {
+    font-size: 10px;
 
-      font-size: 8px;
-    }
-    .main .feedback-container-3 {
-      padding: 10px;
+    padding-bottom: 20px;
 
-      font-size: 8px;
-    }
-    .main .feedback-container-1 > p {
-      font-size: 6px;
-    }
-    .main .feedback-container-2 > p {
-      font-size: 6px;
-    }
-    .main .feedback-container-3 > p {
-      font-size: 6px;
-    }
+    background-size: 20vw;
+  }
+  .main .main--info-text-container > p {
+    font-size: 4px;
+  }
+  .main .main--description-container {
+    display: grid;
+    grid-template-areas: "div1 div2";
+    grid-template-columns: 50vw 50vw;
+  }
 
-    .main .feedback-container-1 > h2 {
-      font-size: 10px;
-    }
-    .main .feedback-container-2 > h2 {
-      font-size: 10px;
-    }
-    .main .feedback-container-3 > h2 {
-      font-size: 10px;
-    }
-    .main .moreInfo-heading {
-      font-size: 8px;
+  .main .boat-div,
+  .main .heart-div,
+  .main .mountain-div,
+  .main .worker-div {
+    width: 50vw;
+  }
+  .mountain-text > h2,
+  .worker-text > h2,
+  .boat-text > h2,
+  .heart-text > h2 {
+    font-size: 10px;
+  }
+  .main .boat-text,
+  .main .heart-text,
+  .main .mountain-text,
+  .main .worker-text {
+    margin: 30px auto;
+  }
+  .main .boat-text > p,
+  .main .mountain-text > p,
+  .main .heart-text > p,
+  .main .worker-text > p {
+    font-size: 8px;
+  }
+  .main .feedback-text-container {
+    padding-top: 15px;
+  }
+  .main .main--feedback-heading {
+    font-size: 10px;
 
-      padding: 30px 10px 25px 40px;
+    background-size: 20vw;
 
-      background-size: 25vw;
-    }
-    .main .moreInfo-p {
-      font-size: 5px;
+    padding-bottom: 20px;
+  }
+  .main--feedback-p {
+    font-size: 5px;
+  }
+  .main .feedback-testimonial-header {
+    padding-top: 10px;
 
-      padding: 0px 10px 40px 40px;
-    }
-    .main .getQuote-heading {
-      font-size: 17px;
+    font-size: 7px;
+  }
+  .main .feedback-containers-wrapper {
+    gap: 30px;
+  }
+  .main .feedback-container-1 {
+    padding: 5px;
 
-      background-size: 25vw;
+    font-size: 5px;
+  }
+  .main .feedback-container-2 {
+    padding: 5px;
 
-      padding-bottom: 25px;
-    }
-    .main .getQuote-p {
-      font-size: 6px;
+    font-size: 5px;
+  }
+  .main .feedback-container-3 {
+    padding: 5px;
 
-      padding-bottom: 15px;
-    }
-    .main .ourPartners-heading {
-      font-size: 17px;
+    font-size: 5px;
+  }
+  .main .feedback-container-1 > p {
+    font-size: 5px;
+  }
+  .main .feedback-container-2 > p {
+    font-size: 5px;
+  }
+  .main .feedback-container-3 > p {
+    font-size: 5px;
+  }
 
-      margin-top: 20px;
+  .main .feedback-container-1 > h2 {
+    font-size: 6px;
+  }
+  .main .feedback-container-2 > h2 {
+    font-size: 6px;
+  }
+  .main .feedback-container-3 > h2 {
+    font-size: 6px;
+  }
+  .main .moreInfo-heading {
+    font-size: 5px;
 
-      padding-bottom: 40px;
+    padding: 15px 10px 20px 25px;
 
-      background-size: 25vw;
-    }
-    .main .logo-ourPartners {
-      width: 37px;
-      height: 20px;
-    }
+    background-size: 25vw;
+  }
+  .main .moreInfo-p {
+    font-size: 3.7px;
 
-    .main .logo-wrapper-1 {
-      gap: 70px;
-    }
-    .main .logo-wrapper-2 {
-      gap: 70px;
-    }
-    .main .main--contact-logo-img {
-      width: 150px;
-      height: auto;
-    }
+    padding: 0px 10px 20px 25px;
+  }
 
-    .main .main--contact-facebook-img {
-      width: 15px;
-      height: 25px;
-    }
-    .main .main--contact-linkedIn-img {
-      width: 17px;
-      height: 23px;
-    }
-    .main .main--contact-twitter-img {
-      width: 15px;
-      height: 20px;
-    }
-    .main .main--contact-container-items-position {
-      gap: 65px;
-    }
+  .main .moreInfo-text-container {
+    gap: 30px;
+  }
+  .main .getQuote-heading {
+    font-size: 10px;
 
-    .main .products-heading {
-      font-size: 13px;
-    }
-    .main .contactInfo-heading {
-      font-size: 13px;
-    }
+    background-size: 20vw;
 
-    .main .contact-products-li {
-      font-size: 7px;
-    }
-    .main .main--contact-container ul {
-      width: 90%;
-      margin-left: 0;
-    }
+    padding-bottom: 15px;
+  }
+  .main .getQuote-p {
+    font-size: 5px;
 
-    .main .bottom-nav {
-      font-size: 6px;
-    }
+    padding-bottom: 15px;
+  }
+  .main .ourPartners-heading {
+    font-size: 10px;
 
-    .main .main--bottom-nav-links-container {
-      padding: 17px;
-    }
-    .main--copyright-container {
-      font-size: 10px;
-    }
+    margin-top: 20px;
 
-    .main .nav--list {
-      font-size: 40px;
+    padding-bottom: 30px;
 
-      margin-top: 65px;
-      margin-left: 0px;
+    background-size: 20vw;
+  }
+  .main .logo-ourPartners {
+    width: 35px;
+    height: 17px;
+  }
 
-      color: var(--color-copyright-container);
-    }
+  .main .logo-wrapper-1 {
+    gap: 60px;
+  }
+  .main .logo-wrapper-2 {
+    gap: 60px;
+  }
+  .main .main--contact-logo-img {
+    width: 100px;
+    height: auto;
+  }
+  .main .main--contact-images-container {
+    grid-template-rows: 40px 80px;
+    grid-template-columns: 35px 35px 35px;
+  }
+
+  .main .main--contact-facebook-img {
+    width: 10px;
+    height: 12px;
+  }
+  .main .main--contact-linkedIn-img {
+    width: 12px;
+    height: 15px;
+  }
+  .main .main--contact-twitter-img {
+    width: 15px;
+    height: 15px;
+  }
+  .main .main--contact-container-items-position {
+    gap: 15px;
+  }
+
+  .main .contact-products-li {
+    width: 95%;
+
+    font-size: 7px;
+  }
+
+  .main .products-heading {
+    font-size: 10px;
+    margin-left: 30px;
+  }
+  .main .contactInfo-heading {
+    font-size: 10px;
+
+    margin-left: 20px;
+  }
+
+  .main .main--contact-container ul {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .main .bottom-nav > span {
+    font-size: 5px;
+  }
+
+  .main .main--bottom-nav-links-container {
+    padding: 13px;
+
+    gap: 20px;
+  }
+
+  .main--copyright-container {
+    font-size: 7px;
+  }
+
+  .main .nav--list {
+    font-size: 40px;
+
+    margin-top: 65px;
+    margin-left: 0px;
+
+    color: var(--color-copyright-container);
   }
 }
