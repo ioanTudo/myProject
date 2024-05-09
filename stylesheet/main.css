@@ -400,6 +400,227 @@ li :hover {
   font-size: 15px;
 }
 
+@media (max-width: 820px) {
+  .body--no-overflow {
+    overflow: hidden;
+  }
+  .main .main--quote-container {
+    margin-top: 10vw;
+  }
+  .main .main--quote-heading {
+    font-size: 25px;
+  }
+  .main .main--quote-container > p {
+    font-size: 10px;
+  }
+  .main .phone {
+    font-size: 12px;
+  }
+
+  .main .button {
+    width: 130px;
+    height: 35px;
+  }
+  .main .main--info-text-container {
+    top: 17px;
+  }
+  .main .main--info-text-container > h1 {
+    font-size: 25px;
+
+    padding-bottom: 30px;
+
+    background-size: 25vw;
+  }
+  .main .main--info-text-container > p {
+    font-size: 8px;
+  }
+  .main .main--description-container {
+    display: grid;
+    grid-template-areas: "div1 div2";
+    grid-template-columns: 50vw 50vw;
+  }
+
+  .main .boat-div,
+  .main .heart-div,
+  .main .mountain-div,
+  .main .worker-div {
+    width: 50vw;
+  }
+  .mountain-text > h1,
+  .worker-text > h1,
+  .boat-text > h1,
+  .heart-text > h1 {
+    font-size: 25px;
+  }
+  .main .boat-text,
+  .main .heart-text,
+  .main .mountain-text,
+  .main .worker-text {
+    margin: auto;
+  }
+  .main .feedback-text-container {
+    padding-top: 15px;
+  }
+  .main .main--feedback-heading {
+    font-size: 15px;
+
+    background-size: 25vw;
+
+    padding-bottom: 35px;
+  }
+  .main--feedback-p {
+    font-size: 8px;
+  }
+  .main .feedback-testimonial-header {
+    padding-top: 20px;
+
+    font-size: 10px;
+  }
+  .main .feedback-containers-wrapper {
+    gap: 30px;
+  }
+  .main .feedback-container-1 {
+    padding: 35px;
+
+    font-size: 12px;
+  }
+  .main .feedback-container-2 {
+    padding: 35px;
+
+    font-size: 12px;
+  }
+  .main .feedback-container-3 {
+    padding: 35px;
+
+    font-size: 12px;
+  }
+  .main .feedback-container-1 > p {
+    font-size: 6px;
+  }
+  .main .feedback-container-2 > p {
+    font-size: 6px;
+  }
+  .main .feedback-container-3 > p {
+    font-size: 6px;
+  }
+
+  .main .feedback-container-1 > h2 {
+    font-size: 15px;
+  }
+  .main .feedback-container-2 > h2 {
+    font-size: 15px;
+  }
+  .main .feedback-container-3 > h2 {
+    font-size: 15px;
+  }
+  .main .moreInfo-heading {
+    font-size: 15px;
+
+    padding: 30px 10px 35px 40px;
+
+    background-size: 25vw;
+  }
+  .main .moreInfo-p {
+    font-size: 7px;
+
+    padding: 5px 10px 40px 40px;
+  }
+  .main .getQuote-heading {
+    font-size: 25px;
+
+    background-size: 25vw;
+
+    padding-bottom: 35px;
+  }
+  .main .getQuote-p {
+    font-size: 8px;
+
+    padding-bottom: 15px;
+  }
+  .main .ourPartners-heading {
+    font-size: 25px;
+
+    padding-bottom: 55px;
+
+    margin-top: 35px;
+
+    background-size: 25vw;
+  }
+  .main .logo-ourPartners {
+    width: 75px;
+    height: 50px;
+  }
+
+  .main .logo-wrapper-1 {
+    gap: 100px;
+  }
+  .main .logo-wrapper-2 {
+    gap: 100px;
+  }
+  .main .main--contact-logo-img {
+    width: 100px;
+    height: auto;
+  }
+  .main .main--contact-images-container {
+    grid-template-rows: 40px 80px;
+    grid-template-columns: 35px 35px 35px;
+  }
+
+  .main .main--contact-facebook-img {
+    width: 10px;
+    height: 20px;
+  }
+  .main .main--contact-linkedIn-img {
+    width: 13px;
+    height: 17px;
+  }
+  .main .main--contact-twitter-img {
+    width: 15px;
+    height: 15px;
+  }
+  .main .main--contact-container-items-position {
+    gap: 45px;
+  }
+
+  .main .products-heading {
+    font-size: 10px;
+    margin-left: 30px;
+  }
+  .main .contactInfo-heading {
+    font-size: 10px;
+
+    margin-left: 20px;
+  }
+
+  .main .contact-products-li ::marker {
+    font-size: 5px;
+  }
+  .main .main--contact-container ul {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .main .bottom-nav {
+    font-size: 10px;
+  }
+
+  .main .main--bottom-nav-links-container {
+    padding: 17px;
+  }
+  .main--copyright-container {
+    font-size: 10px;
+  }
+
+  .main .nav--list {
+    font-size: 40px;
+
+    margin-top: 65px;
+    margin-left: 0px;
+
+    color: var(--color-copyright-container);
+  }
+}
+
 @media (max-width: 550px) {
   .main .logo {
     width: 150px;
@@ -614,6 +835,261 @@ li :hover {
   }
   .main--copyright-container {
     font-size: 10px;
+  }
+
+  .main .nav--list {
+    font-size: 40px;
+
+    margin-top: 65px;
+    margin-left: 0px;
+
+    color: var(--color-copyright-container);
+  }
+}
+
+@media (max-width: 391px) {
+  .main .logo {
+    width: 70px;
+    height: 20px;
+  }
+  .header {
+    grid-template-columns: 50px 2fr 90px;
+  }
+
+  .main .menu {
+    width: 20px;
+    height: 20px;
+  }
+
+  .body--no-overflow {
+    overflow: hidden;
+  }
+  .main .main--quote-container {
+    margin-top: 5vw;
+  }
+  .main .main--quote-heading {
+    font-size: 10px;
+  }
+  .main .main--quote-container > p {
+    font-size: 5px;
+
+    margin: 5vw auto;
+  }
+
+  .main .phone {
+    font-size: 10px;
+  }
+
+  .main .button {
+    width: 80px;
+    height: 20px;
+
+    font-size: 5px;
+  }
+  .main .main--info-text-container {
+    top: 17px;
+  }
+  .main .main--info-text-container > h1 {
+    font-size: 10px;
+
+    padding-bottom: 20px;
+
+    background-size: 20vw;
+  }
+  .main .main--info-text-container > p {
+    font-size: 4px;
+  }
+  .main .main--description-container {
+    display: grid;
+    grid-template-areas: "div1 div2";
+    grid-template-columns: 50vw 50vw;
+  }
+
+  .main .boat-div,
+  .main .heart-div,
+  .main .mountain-div,
+  .main .worker-div {
+    width: 50vw;
+  }
+  .mountain-text > h2,
+  .worker-text > h2,
+  .boat-text > h2,
+  .heart-text > h2 {
+    font-size: 10px;
+  }
+  .main .boat-text,
+  .main .heart-text,
+  .main .mountain-text,
+  .main .worker-text {
+    margin: 30px auto;
+  }
+  .main .boat-text > p,
+  .main .mountain-text > p,
+  .main .heart-text > p,
+  .main .worker-text > p {
+    font-size: 8px;
+  }
+  .main .feedback-text-container {
+    padding-top: 15px;
+  }
+  .main .main--feedback-heading {
+    font-size: 10px;
+
+    background-size: 20vw;
+
+    padding-bottom: 20px;
+  }
+  .main--feedback-p {
+    font-size: 5px;
+  }
+  .main .feedback-testimonial-header {
+    padding-top: 10px;
+
+    font-size: 7px;
+  }
+  .main .feedback-containers-wrapper {
+    gap: 30px;
+  }
+  .main .feedback-container-1 {
+    padding: 5px;
+
+    font-size: 5px;
+  }
+  .main .feedback-container-2 {
+    padding: 5px;
+
+    font-size: 5px;
+  }
+  .main .feedback-container-3 {
+    padding: 5px;
+
+    font-size: 5px;
+  }
+  .main .feedback-container-1 > p {
+    font-size: 5px;
+  }
+  .main .feedback-container-2 > p {
+    font-size: 5px;
+  }
+  .main .feedback-container-3 > p {
+    font-size: 5px;
+  }
+
+  .main .feedback-container-1 > h2 {
+    font-size: 6px;
+  }
+  .main .feedback-container-2 > h2 {
+    font-size: 6px;
+  }
+  .main .feedback-container-3 > h2 {
+    font-size: 6px;
+  }
+  .main .moreInfo-heading {
+    font-size: 5px;
+
+    padding: 15px 10px 20px 25px;
+
+    background-size: 25vw;
+  }
+  .main .moreInfo-p {
+    font-size: 3.7px;
+
+    padding: 0px 10px 20px 25px;
+  }
+
+  .main .moreInfo-text-container {
+    gap: 30px;
+  }
+  .main .getQuote-heading {
+    font-size: 10px;
+
+    background-size: 20vw;
+
+    padding-bottom: 15px;
+  }
+  .main .getQuote-p {
+    font-size: 5px;
+
+    padding-bottom: 15px;
+  }
+  .main .ourPartners-heading {
+    font-size: 10px;
+
+    margin-top: 20px;
+
+    padding-bottom: 30px;
+
+    background-size: 20vw;
+  }
+  .main .logo-ourPartners {
+    width: 35px;
+    height: 17px;
+  }
+
+  .main .logo-wrapper-1 {
+    gap: 60px;
+  }
+  .main .logo-wrapper-2 {
+    gap: 60px;
+  }
+  .main .main--contact-logo-img {
+    width: 100px;
+    height: auto;
+  }
+  .main .main--contact-images-container {
+    grid-template-rows: 40px 80px;
+    grid-template-columns: 35px 35px 35px;
+  }
+
+  .main .main--contact-facebook-img {
+    width: 10px;
+    height: 12px;
+  }
+  .main .main--contact-linkedIn-img {
+    width: 12px;
+    height: 15px;
+  }
+  .main .main--contact-twitter-img {
+    width: 15px;
+    height: 15px;
+  }
+  .main .main--contact-container-items-position {
+    gap: 15px;
+  }
+
+  .main .contact-products-li {
+    width: 95%;
+
+    font-size: 7px;
+  }
+
+  .main .products-heading {
+    font-size: 10px;
+    margin-left: 30px;
+  }
+  .main .contactInfo-heading {
+    font-size: 10px;
+
+    margin-left: 20px;
+  }
+
+  .main .main--contact-container ul {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .main .bottom-nav > span {
+    font-size: 5px;
+  }
+
+  .main .main--bottom-nav-links-container {
+    padding: 13px;
+
+    gap: 20px;
+  }
+
+  .main--copyright-container {
+    font-size: 7px;
   }
 
   .main .nav--list {
