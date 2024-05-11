@@ -8,7 +8,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(/images/banners/homepage_01.jpg);
+  background-image: url(../images/banners/homepage_01.jpg);
 }
 
 .main--quote-heading {
