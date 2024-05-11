@@ -30,6 +30,35 @@
   --color-font-feedback-heading: var(--color-text-feedback);
 }
 
+.button {
+  width: 250px;
+  height: 50px;
+
+  margin: auto;
+
+  font-size: 17px;
+
+  color: var(--color-text);
+
+  font-weight: bold;
+
+  border: 0px;
+
+  position: relative;
+
+  background-image: linear-gradient(
+    to right,
+    var(--color-gradient-buttons-primary-1),
+    var(--color-gradient-buttons-primary-2)
+  );
+
+  font-family: var(--font-family-nav);
+
+  cursor: pointer;
+
+  text-transform: uppercase;
+}
+
 a {
   text-decoration: none;
 
@@ -52,6 +81,17 @@ body {
   text-align: center;
 
   padding: 20px;
+}
+
+li::marker {
+  color: var(--color-list-footer-primary);
+}
+
+.position ul li {
+  line-height: 2;
+  padding-left: 0px;
+
+  text-align: left;
 }
 
 .nav {
@@ -137,6 +177,116 @@ li :hover {
 
 .close {
   display: none;
+}
+
+.main--contact-container ul {
+  width: 87%;
+}
+
+.main--contact-container ul {
+  list-style: square;
+
+  margin: 8px 0px;
+
+  line-height: 2.5;
+}
+.main--contact-container span {
+  text-align: left;
+  margin-left: 25px;
+
+  font-weight: bolder;
+}
+
+.main--copyright-container {
+  color: var(--color-text);
+
+  background-color: var(--color-background-copyright-container-primary);
+
+  padding: 25px;
+
+  text-align: center;
+}
+.main--contact-flex-products-container > h3 {
+  margin: 0 20px;
+  text-align: left;
+  padding: 0;
+}
+
+.main--bottom-nav-links-container {
+  display: flex;
+  flex-direction: row;
+
+  text-align: center;
+
+  justify-content: center;
+
+  gap: 50px;
+
+  background-color: var(--color-nav-footer-primary);
+
+  padding: 25px;
+
+  color: var(--color-text);
+
+  text-transform: capitalize;
+
+  font-family: var(--font-family-nav);
+}
+
+.main--contact-container-items-position {
+  color: var(--color-text);
+
+  text-transform: capitalize;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+
+  gap: 170px;
+
+  padding: 8vw;
+
+  font-family: var(--font-family-nav);
+
+  background-color: var(--color-background-copyright-container-primary);
+}
+
+.main--contact-flex-contactInfo-container ul :first-child {
+  list-style-image: url(../images/list-styles/location-img.png);
+}
+
+.main--contact-flex-contactInfo-container ul :nth-last-child(2) {
+  list-style-image: url(../images/list-styles/phone-img.png);
+}
+
+.main--contact-flex-contactInfo-container ul :last-child {
+  list-style-image: url(../images/list-styles/mail-img.png);
+}
+
+.main--contact-images-container {
+  display: grid;
+  grid-template-areas:
+    "logo logo logo"
+    "social1 social2 social3";
+
+  grid-template-rows: 60px 100px;
+
+  grid-template-columns: 55px 70px 40px;
+
+  align-items: center;
+
+  text-align: left;
+}
+
+.social1-contact {
+  grid-area: social1;
+}
+.social2-contact {
+  grid-area: social2;
+}
+.social3-contact {
+  grid-area: social3;
 }
 
 @media (max-width: 1390px) {
@@ -390,6 +540,11 @@ li :hover {
 
   .main--contact-flex-products-container .products-heading {
     font-size: 18px;
+  }
+  .main--contact-flex-contactInfo-container > h3 {
+    margin: 0 20px;
+    text-align: left;
+    padding: 0;
   }
 
   .main--contact-flex-contactInfo-container .contactInfo-heading {
