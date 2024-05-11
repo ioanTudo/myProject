@@ -1,4 +1,4 @@
-@import url(main.css);
+@import url(./main.css);
 
 .main--banner-container {
   position: relative;
@@ -264,7 +264,7 @@ strong {
 .heart-heading,
 .mountain-heading,
 .worker-heading {
-  background: url("/images/banners/blueLineDivider.png") bottom no-repeat;
+  background: url(../images/banners/blueLineDivider.png) bottom no-repeat;
 }
 
 .worker-heading {
@@ -358,7 +358,7 @@ strong {
 
   text-align: center;
 
-  background: url("/images/banners/blueCenterDivider.png") bottom no-repeat;
+  background: url(../images/banners/blueCenterDivider.png) bottom no-repeat;
 }
 
 .main--info-p {
@@ -531,7 +531,7 @@ li::marker {
 .getQuote-heading {
   padding-bottom: 45px;
 
-  background: url("/images/banners/whiteCenterDivider.png") bottom no-repeat;
+  background: url(../images/banners/whiteCenterDivider.png) bottom no-repeat;
 
   text-transform: capitalize;
 }
