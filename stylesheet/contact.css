@@ -1,0 +1,66 @@
+@import url(./main.css);
+
+.contact--banner-container {
+  background-image: url(../images/banners/contactBanner.jpg);
+
+  background-color: var(--color-background);
+  height: 20vw;
+  width: 99vw;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact .contact--header {
+  background-color: var(--color-copyright-container);
+}
+
+.contact--banner-container {
+  display: flex;
+}
+
+.contact--banner-container > h1 {
+  color: var(--color-background);
+
+  text-transform: capitalize;
+  margin: auto;
+}
+
+.contact--details-wrapper {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+
+  padding: 5vw;
+}
+.contact-details-text-container {
+  display: flex;
+  flex-direction: column;
+
+  text-align: left;
+}
+.submit-application-container {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+
+  background-color: var(--moreInfo-background-color);
+
+  padding: 0 45px;
+
+  height: 31vw;
+
+  gap: 10px;
+}
+
+.contact--input {
+  height: 35px;
+  width: 25vw;
+}
+
+.contact--button-positioning {
+  margin: 10px auto 0 auto;
+}
