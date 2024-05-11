@@ -66,7 +66,7 @@ strong {
 .main--info-container {
   position: relative;
 
-  background-image: url(/images/banners/blueBackgroundLayer.jpg);
+  background-image: url(../images/banners/blueBackgroundLayer.jpg);
   background-color: var(--color-background);
   background-position: top center;
   background-size: cover;
@@ -129,7 +129,7 @@ strong {
 
   font-size: 25px;
 
-  background: url(/images/banners/blueFloatLeftDivider.png) left bottom
+  background: url(../images/banners/blueFloatLeftDivider.png) left bottom
     no-repeat;
 }
 .moreInfo-p {
@@ -151,7 +151,7 @@ strong {
 
   padding-bottom: 50px;
 
-  background: url("/images/banners/blueCenterDivider.png") bottom no-repeat;
+  background: url(../images/banners/blueCenterDivider.png) bottom no-repeat;
 }
 
 .main--flex-images-container {
@@ -173,7 +173,7 @@ strong {
   justify-items: center;
 }
 .boat-div {
-  background-image: url(/images/banners/boat-img.jpg);
+  background-image: url(../images/banners/boat-img.jpg);
   background-color: var(--color-text);
   height: 29.1vw;
   width: 100%;
@@ -190,7 +190,7 @@ strong {
 }
 
 .heart-div {
-  background-image: url(/images/banners/heart-img.jpg);
+  background-image: url(../images/banners/heart-img.jpg);
   background-color: var(--color-text);
   height: 29.1vw;
   width: 100%;
@@ -208,7 +208,7 @@ strong {
   flex-direction: column;
 }
 .mountain-div {
-  background-image: url(/images/banners/mountain-img.jpg);
+  background-image: url(../images/banners/mountain-img.jpg);
   background-color: var(--color-text);
   height: 29.1vw;
   width: 100%;
@@ -226,7 +226,7 @@ strong {
   flex-direction: column;
 }
 .worker-div {
-  background-image: url(/images/banners/worker-img.jpg);
+  background-image: url(../images/banners/worker-img.jpg);
   background-color: var(--color-text);
   height: 29.1vw;
   width: 100vw;
@@ -379,7 +379,7 @@ strong {
 }
 
 .main--feedback-container {
-  background-image: url(/images/banners/whiteVaultariBackground.jpg);
+  background-image: url(../images/banners/whiteVaultariBackground.jpg);
 
   background-color: var(--color-background);
   height: 65vw;
@@ -555,7 +555,7 @@ li::marker {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(/images/banners/laptopBackground.jpg);
+  background-image: url(../images/banners/laptopBackground.jpg);
 }
 .getQuote-p {
   width: 45%;
@@ -622,7 +622,7 @@ li::marker {
 
   margin-top: 50px;
 
-  background: url(/images/banners/blueCenterDivider.png) center no-repeat;
+  background: url(../images/banners/blueCenterDivider.png) center no-repeat;
 }
 .main--contact-container ul {
   width: 87%;
@@ -659,13 +659,13 @@ li::marker {
 }
 
 .main--contact-flex-contactInfo-container ul :first-child {
-  list-style-image: url(/images/list-styles/location-img.png);
+  list-style-image: url(../images/list-styles/location-img.png);
 }
 
 .main--contact-flex-contactInfo-container ul :nth-last-child(2) {
-  list-style-image: url(/images/list-styles/phone-img.png);
+  list-style-image: url(../images/list-styles/phone-img.png);
 }
 
 .main--contact-flex-contactInfo-container ul :last-child {
-  list-style-image: url(/images/list-styles/mail-img.png);
+  list-style-image: url(../images/list-styles/mail-img.png);
 }
