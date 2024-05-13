@@ -63,9 +63,8 @@ h2 {
 
   background-color: var(--moreInfo-background-color);
 
-  height: 31vw;
-
-  padding: 20px 0 50px 0;
+  height: auto;
+  padding: 3vw;
 
   gap: 10px;
 
@@ -119,4 +118,34 @@ input::placeholder {
   color: var(--color-placeholder);
 
   text-transform: uppercase;
+}
+
+@media (max-width: 1126px) {
+  .main--contact-container-items-position {
+    gap: 80px;
+  }
+}
+
+@media (max-width: 750px) {
+  .main--contact-logo-img {
+    width: 20vw;
+  }
+
+  .contact .main--bottom-nav-links-container span {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 630px) {
+  .contact .main--contact-container-items-position {
+    gap: 50px;
+  }
+
+  .contact header {
+    grid-template-columns: 50px 1fr 150px;
+  }
+
+  .contact .main--bottom-nav-links-container span {
+    font-size: 8px;
+  }
 }

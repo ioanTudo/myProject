@@ -397,7 +397,7 @@ li :hover {
     color: var(--color-copyright-container);
 
     top: 0px;
-    left: -130%;
+    left: -140%;
   }
 
   .nav--visible {
@@ -549,6 +549,15 @@ li :hover {
 
   .main--contact-flex-contactInfo-container .contactInfo-heading {
     font-size: 18px;
+  }
+
+  .contact .contact--details-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contact .aplication-inputs > input {
+    width: 50vw;
   }
 }
 .main .bottom-nav {
@@ -734,7 +743,7 @@ li :hover {
     height: 15px;
   }
   .main .main--contact-container-items-position {
-    gap: 45px;
+    gap: 25px;
   }
 
   .main .products-heading {
