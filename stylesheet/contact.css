@@ -1,7 +1,7 @@
 @import url(./main.css);
 
 .contact--banner-container {
-  background-image: url(../images/banners/contactBanner.jpg);
+  background-image: url(../images/banners/contact-page/contactBanner.jpg);
 
   background-color: var(--color-background);
   height: 20vw;

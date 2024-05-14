@@ -4,11 +4,11 @@
   position: relative;
   background-color: var(--color-background);
   height: 50vw;
-  width: 100vw;
+  width: 99vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/banners/homepage_01.jpg);
+  background-image: url(../images/banners/index-page/homepage_01.jpg);
 }
 
 .main--quote-heading {
@@ -37,11 +37,11 @@ strong {
 .main--info-container {
   position: relative;
 
-  background-image: url(../images/banners/blueBackgroundLayer.jpg);
+  background-image: url(../images/banners/index-page/blueBackgroundLayer.jpg);
   background-color: var(--color-background);
   background-position: top center;
   background-size: cover;
-  width: 100vw;
+  width: 99vw;
   height: 40vw;
 }
 
@@ -77,7 +77,7 @@ strong {
   position: relative;
   background-color: var(--color-font-feedback-heading);
   height: 60vw;
-  width: 100vw;
+  width: 99vw;
 
   display: flex;
   flex-direction: column;
@@ -100,8 +100,8 @@ strong {
 
   font-size: 25px;
 
-  background: url(../images/banners/blueFloatLeftDivider.png) left bottom
-    no-repeat;
+  background: url(../images/banners/index-page/blueFloatLeftDivider.png) left
+    bottom no-repeat;
 }
 .moreInfo-p {
   text-align: left;
@@ -122,7 +122,8 @@ strong {
 
   padding-bottom: 50px;
 
-  background: url(../images/banners/blueCenterDivider.png) bottom no-repeat;
+  background: url(../images/banners/index-page/blueCenterDivider.png) bottom
+    no-repeat;
 }
 
 .main--flex-images-container {
@@ -144,7 +145,7 @@ strong {
   justify-items: center;
 }
 .boat-div {
-  background-image: url(../images/banners/boat-img.jpg);
+  background-image: url(../images/banners/index-page/boat-img.jpg);
   background-color: var(--color-text);
   height: 29.1vw;
   width: 100%;
@@ -161,7 +162,7 @@ strong {
 }
 
 .heart-div {
-  background-image: url(../images/banners/heart-img.jpg);
+  background-image: url(../images/banners/index-page/heart-img.jpg);
   background-color: var(--color-text);
   height: 29.1vw;
   width: 100%;
@@ -179,7 +180,7 @@ strong {
   flex-direction: column;
 }
 .mountain-div {
-  background-image: url(../images/banners/mountain-img.jpg);
+  background-image: url(../images/banners/index-page/mountain-img.jpg);
   background-color: var(--color-text);
   height: 29.1vw;
   width: 100%;
@@ -197,7 +198,7 @@ strong {
   flex-direction: column;
 }
 .worker-div {
-  background-image: url(../images/banners/worker-img.jpg);
+  background-image: url(../images/banners/index-page/worker-img.jpg);
   background-color: var(--color-text);
   height: 29.1vw;
   width: 100vw;
@@ -235,7 +236,8 @@ strong {
 .heart-heading,
 .mountain-heading,
 .worker-heading {
-  background: url(../images/banners/blueLineDivider.png) bottom no-repeat;
+  background: url(../images/banners/index-page/blueLineDivider.png) bottom
+    no-repeat;
 }
 
 .worker-heading {
@@ -297,28 +299,6 @@ strong {
 
   padding-bottom: 90px;
 }
-.designDivider-bottom {
-  width: 2px;
-  height: 135px;
-
-  padding-bottom: 0;
-
-  position: relative;
-
-  margin: auto auto 0 auto;
-}
-
-.designDivider-top {
-  width: 2px;
-  height: 135px;
-
-  margin: 0 auto;
-  position: relative;
-}
-
-.blue {
-  background-color: var(--color-nav-background);
-}
 
 .main--feedback-heading {
   color: var(--color-font-feedback-heading);
@@ -329,7 +309,8 @@ strong {
 
   text-align: center;
 
-  background: url(../images/banners/blueCenterDivider.png) bottom no-repeat;
+  background: url(../images/banners/index-page/blueCenterDivider.png) bottom
+    no-repeat;
 }
 
 .main--info-p {
@@ -350,11 +331,11 @@ strong {
 }
 
 .main--feedback-container {
-  background-image: url(../images/banners/whiteVaultariBackground.jpg);
+  background-image: url(../images/banners/index-page/whiteVaultariBackground.jpg);
 
   background-color: var(--color-background);
   height: 65vw;
-  width: 100vw;
+  width: 99vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -395,61 +376,6 @@ strong {
   font-family: var(--font-family-nav);
 }
 
-.main--laptop-img {
-  width: 100%;
-  height: 100%;
-}
-
-.main--partnersBackground-img {
-  width: 100%;
-  height: 100%;
-}
-
-.getQuote-img {
-  width: 100%;
-  height: auto;
-}
-.getQuote-heading {
-  padding-bottom: 45px;
-
-  background: url(../images/banners/whiteCenterDivider.png) bottom no-repeat;
-
-  text-transform: capitalize;
-}
-.getQuote-content {
-  position: relative;
-
-  color: var(--color-text);
-
-  text-align: center;
-
-  margin-top: 5px;
-}
-.main--getQuote-container {
-  display: flex;
-  flex-direction: column;
-
-  position: relative;
-  background-color: var(--color-background);
-  height: 45vw;
-  width: 100vw;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(../images/banners/laptopBackground.jpg);
-}
-.getQuote-p {
-  width: 45%;
-
-  font-family: var(--font-family-nav);
-
-  margin: auto;
-
-  padding-bottom: 45px;
-
-  line-height: 1.7;
-}
-
 .main--quote-container {
   display: flex;
 
@@ -468,7 +394,7 @@ strong {
   position: relative;
   background-color: var(--color-background);
   height: 30vw;
-  width: 100vw;
+  width: 99vw;
 
   display: flex;
   flex-direction: column;
@@ -503,7 +429,8 @@ strong {
 
   margin-top: 50px;
 
-  background: url(../images/banners/blueCenterDivider.png) center no-repeat;
+  background: url(../images/banners/index-page/blueCenterDivider.png) center
+    no-repeat;
 }
 
 .checked {
