@@ -1,0 +1,5 @@
+@import url(./main.css);
+
+.about .about--header {
+  background-color: var(--color-copyright-container);
+}
