@@ -106,3 +106,20 @@
   flex-basis: 40vw;
   height: 25vw;
 }
+
+@media (max-width: 550px) {
+  .about .about--details-wrapper-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .about header {
+    grid-template-columns: 50px 1fr 150px;
+  }
+
+  .about .main--bottom-nav-links-container span {
+    font-size: 8px;
+  }
+}
+@media (max-width: 630px) {
+}
