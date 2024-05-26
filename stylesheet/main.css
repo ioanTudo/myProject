@@ -20,6 +20,8 @@
   --color-placeholder: #969ea5;
   --moreInfo-background-color: #2b4885;
 
+  --font-color-about-page: #3f3f3f;
+
   --color-box-shadow: rgba(149, 157, 165, 0.2);
 
   --color-burger-menu: #ff7b54;
@@ -28,6 +30,70 @@
   --font-family-text: "Playfair Display", serif;
   --font-family-buttons: var(--font-family-nav);
   --color-font-feedback-heading: var(--color-text-feedback);
+}
+.main--getQuote-container {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  background-color: var(--color-background);
+  height: 45vw;
+  width: 99vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/banners/index-page/laptopBackground.jpg);
+}
+.getQuote-p {
+  width: 45%;
+
+  font-family: var(--font-family-nav);
+
+  margin: auto;
+
+  padding-bottom: 45px;
+
+  line-height: 1.7;
+}
+.getQuote-content {
+  position: relative;
+
+  color: var(--color-text);
+
+  text-align: center;
+
+  margin-top: 5px;
+}
+.getQuote-heading {
+  padding-bottom: 45px;
+
+  background: url(../images/banners/index-page/whiteCenterDivider.png) bottom
+    no-repeat;
+
+  text-transform: capitalize;
+}
+
+.blue {
+  background-color: var(--color-nav-background);
+}
+
+.designDivider-bottom {
+  width: 2px;
+  height: 125px;
+
+  padding-bottom: 0;
+
+  position: relative;
+
+  margin: auto auto 0 auto;
+}
+
+.designDivider-top {
+  width: 2px;
+  height: 125px;
+
+  margin: 0 auto;
+  position: relative;
 }
 
 .button {
