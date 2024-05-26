@@ -1,0 +1,151 @@
+@import url(./main.css);
+
+.contact--banner-container {
+  background-image: url(../images/banners/contact-page/contactBanner.jpg);
+
+  background-color: var(--color-background);
+  height: 20vw;
+  width: 99vw;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact .contact--header {
+  background-color: var(--color-copyright-container);
+}
+
+.contact--banner-container {
+  display: flex;
+}
+
+.contact--banner-container > h1 {
+  color: var(--color-background);
+
+  text-transform: capitalize;
+  margin: auto;
+}
+
+.contact--details-wrapper {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+
+  align-items: center;
+
+  padding: 5vw;
+}
+.contact-details-text-container > span {
+  font-family: var(--font-family-nav);
+  line-height: 1.6;
+}
+.contact-details-text-container {
+  display: flex;
+  flex-direction: column;
+
+  text-align: left;
+
+  flex-basis: 40%;
+}
+.contact-details-text-container > h1,
+h2 {
+  color: var(--color-nav-footer-primary);
+
+  text-transform: capitalize;
+}
+.submit-application-container {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+
+  background-color: var(--moreInfo-background-color);
+
+  height: auto;
+  padding: 3vw;
+
+  gap: 10px;
+
+  flex-basis: 40%;
+}
+
+.contact--input {
+  height: 35px;
+  width: 25vw;
+}
+
+.contact--button-positioning {
+  margin: 10px auto 0 auto;
+}
+
+.submit-application-container > h1 {
+  color: var(--color-background);
+  background: url(../images/banners/blueCenterDivider.png) center bottom
+    no-repeat;
+  padding-bottom: 35px;
+  text-transform: capitalize;
+}
+.contact--social-container {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.submit-application-container > span {
+  color: var(--color-background);
+  width: 80%;
+  margin: 0 auto;
+  line-height: 1.7;
+
+  font-family: var(--font-family-nav);
+}
+.aplication-inputs {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 10px;
+}
+.aplication-inputs > input {
+  width: 26vw;
+  padding-left: 20px;
+}
+
+input::placeholder {
+  font-family: var(--font-family-nav);
+  font-weight: bold;
+  color: var(--color-placeholder);
+
+  text-transform: uppercase;
+}
+
+@media (max-width: 1126px) {
+  .main--contact-container-items-position {
+    gap: 80px;
+  }
+}
+
+@media (max-width: 750px) {
+  .main--contact-logo-img {
+    width: 20vw;
+  }
+
+  .contact .main--bottom-nav-links-container span {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 630px) {
+  .contact .main--contact-container-items-position {
+    gap: 50px;
+  }
+
+  .contact header {
+    grid-template-columns: 50px 1fr 150px;
+  }
+
+  .contact .main--bottom-nav-links-container span {
+    font-size: 8px;
+  }
+}
