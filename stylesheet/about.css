@@ -1,9 +1,5 @@
 @import url(./main.css);
 
-.about .about--header {
-  background-color: var(--color-copyright-container);
-}
-
 .about--banner {
   background-image: url(../images/banners/about-page/aboutTop-banner.jpg);
   display: flex;
