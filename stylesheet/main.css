@@ -81,21 +81,25 @@
 
 .designDivider-bottom {
   width: 2px;
-  height: 125px;
+  height: 100px;
 
   padding-bottom: 0;
 
   position: relative;
 
   margin: auto auto 0 auto;
+
+  background-color: var(--color-nav-background);
 }
 
 .designDivider-top {
   width: 2px;
-  height: 125px;
+  height: 100px;
 
   margin: 0 auto;
   position: relative;
+
+  background-color: var(--color-nav-background);
 }
 
 .button {
@@ -131,11 +135,6 @@ a {
   text-decoration: none;
 
   color: inherit;
-}
-body {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
 }
 
 .header {
@@ -357,500 +356,8 @@ li :hover {
   grid-area: social3;
 }
 
-@media (max-width: 1390px) {
-  .main--quote-container > h1,
-  .main--info-text-container > h1,
-  .main--feedback-text-container > h1,
-  .getQuote-content > h1,
-  .ourPartners-text-container > h1 {
-    font-size: 33px;
-  }
-  .feedback-testimonial-header {
-    font-size: 13px;
-  }
-  .feedback-container-1 > p,
-  .feedback-container-2 > p,
-  .feedback-container-3 > p,
-  .main--feedback-text-container > p,
-  .getQuote-content > p,
-  .main--info-text-container > p {
-    font-size: 13px;
-  }
-  .main .main--feedback-text-container {
-    top: 60px;
-  }
-  .main .getQuote-content {
-    bottom: 15px;
-  }
-
-  .mountain-text > h2,
-  .worker-text > h2,
-  .boat-text > h2,
-  .heart-text > h2 {
-    font-size: 17px;
-  }
-  .moreInfo-text-container-1 > h2,
-  .moreInfo-text-container-2 > h2 {
-    font-size: 17px;
-  }
-  .main .moreInfo-text-container-1,
-  .main .moreInfo-text-container-2 {
-    margin-top: 170px;
-  }
-
-  .menu {
-    display: block;
-
-    cursor: pointer;
-  }
-
-  .main .main--moreInfo-wrapper {
-    margin-left: 140px;
-    gap: 83px;
-  }
-
-  .close--visible {
-    display: block;
-
-    z-index: 2;
-
-    cursor: pointer;
-  }
-
-  .menu--hidden {
-    display: none;
-  }
-
-  .nav--ul {
-    flex-direction: column;
-  }
-
-  .main .main--info-text-container {
-    top: 60px;
-  }
-
-  .main .boat-text,
-  .main .heart-text,
-  .main .mountain-text,
-  .main .worker-text {
-    margin: 180px auto;
-  }
-
-  .nav--list {
-    font-size: 80px;
-
-    margin-top: 80px;
-
-    color: var(--color-copyright-container);
-  }
-  .body--no-overflow {
-    overflow: hidden;
-  }
-
-  .header {
-    display: grid;
-
-    grid-template-columns: 150px 2fr 270px;
-    justify-items: center;
-
-    grid-template-areas: "logo menu phone";
-  }
-
-  .nav {
-    position: absolute;
-    width: 100vw;
-    height: 200vh;
-
-    background-color: var(--color-background);
-    color: var(--color-copyright-container);
-
-    top: 0px;
-    left: -140%;
-  }
-
-  .nav--visible {
-    left: 0;
-  }
-}
-
-@media (max-width: 1120px) {
-  .main--quote-container > h1,
-  .main--info-text-container > h1,
-  .getQuote-content > h1,
-  .main--feedback-heading,
-  .ourPartners-text-container {
-    font-size: 24px;
-  }
-  .body--no-overflow {
-    overflow: hidden;
-  }
-
-  .main .ourPartners-heading {
-    font-size: 24px;
-
-    padding-bottom: 65px;
-  }
-
-  .main .logo-wrapper-1 {
-    gap: 100px;
-  }
-  .main .logo-wrapper-2 {
-    gap: 100px;
-  }
-
-  .main .contact-products-li {
-    font-size: 13px;
-  }
-
-  .main .feedback-testimonial-header {
-    font-size: 13px;
-
-    padding-top: 30px;
-  }
-
-  .feedback-testimonial-header {
-    font-size: 12px;
-  }
-  .main .feedback-containers-wrapper {
-    gap: 50px;
-  }
-
-  .main .feedback-container-1 {
-    padding: 25px;
-
-    font-size: small;
-  }
-  .main .feedback-container-2 {
-    padding: 25px;
-
-    font-size: small;
-  }
-  .main .feedback-container-3 {
-    padding: 25px;
-
-    font-size: small;
-  }
-  .main .moreInfo-heading {
-    font-size: 15px;
-
-    padding-left: 60px;
-
-    padding: 30px 20px 40px 60px;
-  }
-
-  .main .moreInfo-p {
-    font-size: 9px;
-    width: 70%;
-    padding: 0 20px 40px 60px;
-  }
-
-  .main .logo-ourPartners {
-    width: 120px;
-    height: 50px;
-  }
-
-  .feedback-container-1 > p,
-  .feedback-container-2 > p,
-  .feedback-container-3 > p,
-  .main--feedback-p,
-  .getQuote-content > p,
-  .main--info-text-container > p,
-  .main--quote-container > p {
-    font-size: 9px;
-  }
-
-  .main .button {
-    width: 160px;
-    height: 40px;
-
-    font-size: 10px;
-  }
-  .mountain-text > h2,
-  .worker-text > h2,
-  .boat-text > h2,
-  .heart-text > h2 {
-    font-size: 15px;
-  }
-
-  .heart-text .main .main--quote-container {
-    margin-top: 80px;
-  }
-
-  .moreInfo-text-container-1 > h2,
-  .moreInfo-text-container-2 > h2 {
-    font-size: 14px;
-  }
-
-  .description-wrapper {
-    display: grid;
-    grid-template-areas: 1fr 1fr;
-  }
-
-  .main .designDivider-bottom {
-    height: 83px;
-  }
-  .main .designDivider-top {
-    height: 83px;
-  }
-
-  .main .boat-div,
-  .main .heart-div,
-  .main .mountain-div,
-  .main .worker-div {
-    height: 50vw;
-  }
-
-  .main .contact-products-li {
-    width: 95%;
-
-    font-size: 10px;
-  }
-
-  .main--contact-flex-products-container .products-heading {
-    font-size: 18px;
-  }
-  .main--contact-flex-contactInfo-container > h3 {
-    margin: 0 20px;
-    text-align: left;
-    padding: 0;
-  }
-
-  .main--contact-flex-contactInfo-container .contactInfo-heading {
-    font-size: 18px;
-  }
-
-  .contact .contact--details-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  .contact .aplication-inputs > input {
-    width: 50vw;
-  }
-}
 .main .bottom-nav {
   font-size: 15px;
-}
-
-@media (max-width: 820px) {
-  .body--no-overflow {
-    overflow: hidden;
-  }
-  .main .main--quote-container {
-    margin-top: 10vw;
-  }
-  .main .main--quote-heading {
-    font-size: 25px;
-  }
-  .main .main--quote-container > p {
-    font-size: 10px;
-  }
-  .main .phone {
-    font-size: 12px;
-  }
-
-  .main .button {
-    width: 130px;
-    height: 35px;
-  }
-  .main .main--info-text-container {
-    top: 17px;
-  }
-  .main .main--info-text-container > h1 {
-    font-size: 25px;
-
-    padding-bottom: 30px;
-
-    background-size: 25vw;
-  }
-  .main .main--info-text-container > p {
-    font-size: 8px;
-  }
-  .main .main--description-container {
-    display: grid;
-    grid-template-areas: "div1 div2";
-    grid-template-columns: 50vw 50vw;
-  }
-
-  .main .boat-div,
-  .main .heart-div,
-  .main .mountain-div,
-  .main .worker-div {
-    width: 50vw;
-  }
-  .mountain-text > h1,
-  .worker-text > h1,
-  .boat-text > h1,
-  .heart-text > h1 {
-    font-size: 25px;
-  }
-  .main .boat-text,
-  .main .heart-text,
-  .main .mountain-text,
-  .main .worker-text {
-    margin: auto;
-  }
-  .main .feedback-text-container {
-    padding-top: 15px;
-  }
-  .main .main--feedback-heading {
-    font-size: 15px;
-
-    background-size: 25vw;
-
-    padding-bottom: 35px;
-  }
-  .main--feedback-p {
-    font-size: 8px;
-  }
-  .main .feedback-testimonial-header {
-    padding-top: 20px;
-
-    font-size: 10px;
-  }
-  .main .feedback-containers-wrapper {
-    gap: 30px;
-  }
-  .main .feedback-container-1 {
-    padding: 35px;
-
-    font-size: 12px;
-  }
-  .main .feedback-container-2 {
-    padding: 35px;
-
-    font-size: 12px;
-  }
-  .main .feedback-container-3 {
-    padding: 35px;
-
-    font-size: 12px;
-  }
-  .main .feedback-container-1 > p {
-    font-size: 6px;
-  }
-  .main .feedback-container-2 > p {
-    font-size: 6px;
-  }
-  .main .feedback-container-3 > p {
-    font-size: 6px;
-  }
-
-  .main .feedback-container-1 > h2 {
-    font-size: 15px;
-  }
-  .main .feedback-container-2 > h2 {
-    font-size: 15px;
-  }
-  .main .feedback-container-3 > h2 {
-    font-size: 15px;
-  }
-  .main .moreInfo-heading {
-    font-size: 15px;
-
-    padding: 30px 10px 35px 40px;
-
-    background-size: 25vw;
-  }
-  .main .moreInfo-p {
-    font-size: 7px;
-
-    padding: 5px 10px 40px 40px;
-  }
-  .main .getQuote-heading {
-    font-size: 25px;
-
-    background-size: 25vw;
-
-    padding-bottom: 35px;
-  }
-  .main .getQuote-p {
-    font-size: 8px;
-
-    padding-bottom: 15px;
-  }
-  .main .ourPartners-heading {
-    font-size: 25px;
-
-    padding-bottom: 55px;
-
-    margin-top: 35px;
-
-    background-size: 25vw;
-  }
-  .main .logo-ourPartners {
-    width: 75px;
-    height: 50px;
-  }
-
-  .main .logo-wrapper-1 {
-    gap: 100px;
-  }
-  .main .logo-wrapper-2 {
-    gap: 100px;
-  }
-  .main .main--contact-logo-img {
-    width: 100px;
-    height: auto;
-  }
-  .main .main--contact-images-container {
-    grid-template-rows: 40px 80px;
-    grid-template-columns: 35px 35px 35px;
-  }
-
-  .main .main--contact-facebook-img {
-    width: 10px;
-    height: 20px;
-  }
-  .main .main--contact-linkedIn-img {
-    width: 13px;
-    height: 17px;
-  }
-  .main .main--contact-twitter-img {
-    width: 15px;
-    height: 15px;
-  }
-  .main .main--contact-container-items-position {
-    gap: 25px;
-  }
-
-  .main .products-heading {
-    font-size: 10px;
-    margin-left: 30px;
-  }
-  .main .contactInfo-heading {
-    font-size: 10px;
-
-    margin-left: 20px;
-  }
-
-  .main .contact-products-li ::marker {
-    font-size: 5px;
-  }
-  .main .main--contact-container ul {
-    width: 90%;
-    margin-left: 0;
-  }
-
-  .main .bottom-nav {
-    font-size: 10px;
-  }
-
-  .main .main--bottom-nav-links-container {
-    padding: 17px;
-  }
-  .main--copyright-container {
-    font-size: 10px;
-  }
-
-  .main .nav--list {
-    font-size: 40px;
-
-    margin-top: 65px;
-    margin-left: 0px;
-
-    color: var(--color-copyright-container);
-  }
 }
 
 @media (max-width: 550px) {
@@ -859,9 +366,6 @@ li :hover {
     height: 50px;
   }
 
-  .body--no-overflow {
-    overflow: hidden;
-  }
   .main .main--quote-container {
     margin-top: 2vw;
   }
@@ -1093,9 +597,6 @@ li :hover {
     height: 20px;
   }
 
-  .body--no-overflow {
-    overflow: hidden;
-  }
   .main .main--quote-container {
     margin-top: 5vw;
   }
@@ -1348,9 +849,6 @@ li :hover {
     height: 20px;
   }
 
-  .body--no-overflow {
-    overflow: hidden;
-  }
   .main .main--quote-container {
     margin-top: 5vw;
   }
