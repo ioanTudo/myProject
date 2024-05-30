@@ -135,7 +135,9 @@
 
   .generic {
     max-width: 1300px;
-    margin: 0;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
   }
   .generic .description-form {
     padding: 50px 50px 0 50px;
