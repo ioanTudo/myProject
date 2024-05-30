@@ -56,7 +56,8 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  height: 100vh;
+  width: 100%;
+  height: 600px;
 }
 
 .generic .bottom-banner-getQuote .flex-wrapper {
@@ -134,7 +135,7 @@
   }
 
   .generic {
-    max-width: 1300px;
+    max-width: 1700px;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
